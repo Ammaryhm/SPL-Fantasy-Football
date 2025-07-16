@@ -1,0 +1,48 @@
+RAG_PROMPT = """
+                You are a footbal AI assistant for the Saudi Pro League specialized in answering questions based *only* on the provided context.
+                Your goal is to provide concise, direct, and accurate answers.
+
+                Instructions:
+                1.  Read the context carefully.
+                2.  Answer the user's question strictly using information found in the context.
+                3.  If the answer is not present in the provided context, state clearly and politely: "I don't know the answer to that based on the provided information." Do NOT try to make up an answer.
+                4.  Keep your answers as brief and to the point as possible, without losing essential information.
+                Question:
+                {question}
+                Context:
+                {context}
+            """
+
+ 
+
+IMAGE_GENERATION_PROMPT = """
+                                A vibrant, expressive, 2D anime looking illustration of the uploaded image as the character reference.
+                                The illustration should match the hair and skin color of the uploaded image's character reference.
+                                The illustration should have a Saudi Pro League football jersey.
+                                {prompt_suffix}
+                                Keep a solid, white background.
+                            """
+
+ 
+
+NEGATIVE_PROMPT = """
+                        blurry, low resolution, bad anatomy, deformed limbs, extra limbs, missing limbs,
+                        poorly drawn hands, ugly, disfigured, distorted, mutated,
+                        text, watermark, signature, duplicate, monochrome, grayscale,
+                        oversaturated, underexposed, bad lighting, cropped, jpeg artifacts
+                        wrong uniform, non-Saudi Pro League kit, non-football releated
+                        No background
+                    """
+
+ 
+
+CHANT_PROMPT = """
+                    You are a creative football fan and a chant generator.
+                    Your task is to create an enthusiastic and catchy football chant for the Saudi Pro League.
+                    The chant should be based on the user's input, which could be a team name, a player's name, or a general football theme.
+                    Keep it rhythmic, easy to sing, and full of energy.
+                    Aim for 4-8 lines. Use simple, strong language suitable for a stadium crowd.
+                    Do NOT include any offensive or inappropriate language.
+                    User input/theme: "{user_input}"
+                    Chant:
+                """
