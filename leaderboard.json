@@ -1,0 +1,29 @@
+{
+  "Hello": {
+    "wins": 3,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 3,
+    "goals_against": 0,
+    "matches_played": 3,
+    "last_played": "2025-07-12 16:09"
+  },
+  "Arsenal_NoLeagueTitle_15Years": {
+    "wins": 0,
+    "draws": 0,
+    "losses": 15,
+    "goals_for": 0,
+    "goals_against": 50,
+    "matches_played": 10,
+    "last_played": "2025-07-12 16:23"
+  },
+    "VanPersie_LeagueTitle_withUnited": {
+    "wins": 12,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 26,
+    "goals_against": 0,
+    "matches_played": 3,
+    "last_played": "2025-07-12 16:34"
+  }
+}
