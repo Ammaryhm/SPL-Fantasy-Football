@@ -1,0 +1,2606 @@
+[
+  {
+    "fixture_id": 1074239,
+    "date": "2023-08-11T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "events": [
+      {
+        "time": "6'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Roberto Firmino",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "10'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Roberto Firmino",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "13'",
+        "team": "Al-Hazm",
+        "player": "Yousef Al-Shammari",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Simulation"
+      },
+      {
+        "time": "20'",
+        "team": "Al-Hazm",
+        "player": "Ahmad Al Mhemaid",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "33'",
+        "team": "Al-Hazm",
+        "player": "Sultan Tanker",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "49'",
+        "team": "Al-Hazm",
+        "player": "B. Traoré",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "50'",
+        "team": "Al-Hazm",
+        "player": "Vina",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "66'",
+        "team": "Al-Ahli Jeddah",
+        "player": "R. Mahrez",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "66'",
+        "team": "Al-Ahli Jeddah",
+        "player": "R. Boudebouz",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Al-Hazm",
+        "player": "Basil Al Sayyali",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Al-Hazm",
+        "player": "Mansour Al Shammari",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "71'",
+        "team": "Al-Hazm",
+        "player": "Yousef Al Shammari",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "72'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Roberto Firmino",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "83'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Ziyad Al Johani",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "87'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Abdulbaset Al-Hindi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +2",
+        "team": "Al-Ahli Jeddah",
+        "player": "F. Kessié",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +2",
+        "team": "Al-Ahli Jeddah",
+        "player": "A. Saint-Maximin",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074240,
+    "date": "2023-08-12T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Damac",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "events": [
+      {
+        "time": "25'",
+        "team": "Damac",
+        "player": "Abdullah Al-Hawsawi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "28'",
+        "team": "Damac",
+        "player": "Bader Munshi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "40'",
+        "team": "Damac",
+        "player": "Hassan Abu Sharara",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Simulation"
+      },
+      {
+        "time": "61'",
+        "team": "Al Taee",
+        "player": "Rakan Shamlan",
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": "64'",
+        "team": "Damac",
+        "player": "Bader Munshi",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "64'",
+        "team": "Damac",
+        "player": "Hassan Abu Shararah",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Damac",
+        "player": "Ahmed Harisi",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Damac",
+        "player": "Abdulaziz Al Shahrani",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "76'",
+        "team": "Al Taee",
+        "player": "Tariq Abdullah",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "76'",
+        "team": "Al Taee",
+        "player": "Ibrahim Al Nakhli",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "79'",
+        "team": "Al Taee",
+        "player": "Abdulaziz Al Harabi",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "82'",
+        "team": "Damac",
+        "player": "Abdulaziz Making",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "84'",
+        "team": "Al Taee",
+        "player": "Rakan Shamlan",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "84'",
+        "team": "Al Taee",
+        "player": "Abdulfattah Asiri",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "87'",
+        "team": "Damac",
+        "player": "Abdullah Al Hawsawi",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90'",
+        "team": "Al Taee",
+        "player": "V. Misidjan",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90' +4",
+        "team": "Damac",
+        "player": "Abdelkader Bedrane",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074241,
+    "date": "2023-08-12T18:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "events": [
+      {
+        "time": "13'",
+        "team": "Al-Fayha",
+        "player": "Ricardo Ryller",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "15'",
+        "team": "Al Khaleej Saihat",
+        "player": "Khaled Al-Semeiry",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "20'",
+        "team": "Al-Fayha",
+        "player": "A. Nwakaeme",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "20'",
+        "team": "Al-Fayha",
+        "player": "Ricardo Ryller",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "23'",
+        "team": "Al-Fayha",
+        "player": "Abdulrahman Al-Safri",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "29'",
+        "team": "Al-Fayha",
+        "player": "Gojko Cimirot",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": "45' +7",
+        "team": "Al-Fayha",
+        "player": "F. Sakala",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "46'",
+        "team": "Al Khaleej Saihat",
+        "player": "Hamad Al Abdan",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "49'",
+        "team": "Al-Fayha",
+        "player": "Victor Ruiz",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "65'",
+        "team": "Al Khaleej Saihat",
+        "player": "Khaled Al Sumairi",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "74'",
+        "team": "Al-Fayha",
+        "player": "Sultan Mandash",
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": "76'",
+        "team": "Al-Fayha",
+        "player": "Sultan Mandash",
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al-Fayha",
+        "player": "G. Cimirot",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al-Fayha",
+        "player": "Abdulrahman Al Safari",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al-Fayha",
+        "player": "Sultan Mandash",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "87'",
+        "team": "Al Khaleej Saihat",
+        "player": "Hisham Al Dubais",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "89'",
+        "team": "Al Khaleej Saihat",
+        "player": "Omar Al Oudah",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90' +5",
+        "team": "Al Khaleej Saihat",
+        "player": "Ivo Rodrigues",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +5",
+        "team": "Al Khaleej Saihat",
+        "player": "Abdullah Al Shanqiti",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074242,
+    "date": "2023-08-13T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Taawon",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "events": [
+      {
+        "time": "24'",
+        "team": "Al-Fateh",
+        "player": "Feras Al Brikan",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "25'",
+        "team": "Al-Fateh",
+        "player": "Firas Al-Buraikan",
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": "38'",
+        "team": "Al Taawon",
+        "player": "Ashraf El Mahdioui",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Handball"
+      },
+      {
+        "time": "45' +1",
+        "team": "Al Taawon",
+        "player": "Andrei Girotto",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "57'",
+        "team": "Al-Fateh",
+        "player": "Ali Alzubaidi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "59'",
+        "team": "Al-Fateh",
+        "player": "Ali Alzubaidi",
+        "type": "Var",
+        "detail": "Card reviewed",
+        "comments": null
+      },
+      {
+        "time": "61'",
+        "team": "Al-Fateh",
+        "player": "Petros",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "72'",
+        "team": "Al Taawon",
+        "player": "Mohammed Al Ghamdi",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "72'",
+        "team": "Al Taawon",
+        "player": "Ahmed Bahusayn",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "73'",
+        "team": "Al-Fateh",
+        "player": "S. Bendebka",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "73'",
+        "team": "Al-Fateh",
+        "player": "Ali Al Zubaidi",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al Taawon",
+        "player": "Mateus",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "87'",
+        "team": "Al Taawon",
+        "player": "Aloyayari Abdulmalik",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +8",
+        "team": "Al-Fateh",
+        "player": "Mohammed Al-Fuhaid",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +4",
+        "team": "Al-Fateh",
+        "player": "Saeed Baattia",
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074243,
+    "date": "2023-08-13T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "events": [
+      {
+        "time": "17'",
+        "team": "Al Riyadh",
+        "player": "K. Musona",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "45' +1",
+        "team": "Al Riyadh",
+        "player": "Knowledge Musona",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "46'",
+        "team": "Al Wehda Club",
+        "player": "Jaber Nasser Asiri",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "51'",
+        "team": "Al Wehda Club",
+        "player": "Ala Al Hajji",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "58'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "60'",
+        "team": "Al Wehda Club",
+        "player": "Abdulkarim Al Qahtani",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "68'",
+        "team": "Al Wehda Club",
+        "player": "Hussain Al Eisa",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "68'",
+        "team": "Al Wehda Club",
+        "player": "Abdulelah Al Bukhari",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "74'",
+        "team": "Al Riyadh",
+        "player": "Hussain Ali Alnwaiqi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": "86'",
+        "team": "Al Riyadh",
+        "player": "Hussain Ali Alnowaiqi",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al Wehda Club",
+        "player": "Abdulaziz Noor",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90' +2",
+        "team": "Al Riyadh",
+        "player": "K. Musona",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90' +2",
+        "team": "Al Riyadh",
+        "player": "D. Ndong",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074245,
+    "date": "2023-08-14T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "events": [
+      {
+        "time": "46'",
+        "team": "Al-Raed",
+        "player": "K. El Berkaoui",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "58'",
+        "team": "Al-Ittihad FC",
+        "player": "A. Hamed Allah",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "73'",
+        "team": "Al-Ittihad FC",
+        "player": "Igor Coronado",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "74'",
+        "team": "Al-Ittihad FC",
+        "player": "Romarinho",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "79'",
+        "team": "Al-Ittihad FC",
+        "player": "Igor Coronado",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "83'",
+        "team": "Al-Ittihad FC",
+        "player": "N. Kanté",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "83'",
+        "team": "Al-Ittihad FC",
+        "player": "Igor Coronado",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "84'",
+        "team": "Al-Raed",
+        "player": "A. Sayoud",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "84'",
+        "team": "Al-Raed",
+        "player": "M. Loum",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90'",
+        "team": "Al-Raed",
+        "player": "Mohammed Al Dossary",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90'",
+        "team": "Al-Ittihad FC",
+        "player": "Fabinho",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90'",
+        "team": "Al-Ittihad FC",
+        "player": "A. Hamed Allah",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074244,
+    "date": "2023-08-14T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "events": [
+      {
+        "time": "31'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Malcom",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "33'",
+        "team": "Abha",
+        "player": "S. Bguir",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "45' +5",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Abdullah Al-Hamdan",
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": "47'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Ali Al-Boleahi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "55'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Malcom",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "66'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Abdullah Al Hamdan",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "76'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Mohammed Al Burayk",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "76'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Michael",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Malcom",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "81'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Malcom",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "82'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Salem Al Dawsari",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "89'",
+        "team": "Abha",
+        "player": "S. Bguir",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074246,
+    "date": "2023-08-14T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "events": [
+      {
+        "time": "4'",
+        "team": "Al-Nassr",
+        "player": "S. Mané",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "13'",
+        "team": "Al-Nassr",
+        "player": "Abdulmajeed Al-Sulaiheem",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "46'",
+        "team": "Al-Ettifaq",
+        "player": "Ahmed Al Ghamdi",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "46'",
+        "team": "Al-Nassr",
+        "player": "Abdulaziz Al Elewai",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "47'",
+        "team": "Al-Ettifaq",
+        "player": "R. Quaison",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "53'",
+        "team": "Al-Ettifaq",
+        "player": "M. Dembélé",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "65'",
+        "team": "Al-Nassr",
+        "player": "Abdulmajeed Al Sulaiheem",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "71'",
+        "team": "Al-Nassr",
+        "player": "Abdulrahman Ghareeb",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "71'",
+        "team": "Al-Nassr",
+        "player": "Ali Al Hassan",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "72'",
+        "team": "Al-Ettifaq",
+        "player": "Ali Abdullah Hazzazi",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "72'",
+        "team": "Al-Ettifaq",
+        "player": "Sanousi Al Hawsawi",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "85'",
+        "team": "Al-Ettifaq",
+        "player": "M. Dembélé",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al-Ettifaq",
+        "player": "J. Henderson",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90' +14",
+        "team": "Al-Nassr",
+        "player": "Sami Al-Najei",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +10",
+        "team": "Al-Nassr",
+        "player": "Nawaf Boushal",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074247,
+    "date": "2023-08-14T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "events": [
+      {
+        "time": "22'",
+        "team": "Al Shabab",
+        "player": "Hassan Tambakti",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "41'",
+        "team": "Al Akhdoud",
+        "player": "A. Burcă",
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": "46'",
+        "team": "Al Shabab",
+        "player": "Abdulelah Al Shammry",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "63'",
+        "team": "Al Shabab",
+        "player": "Iago Santos",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "66'",
+        "team": "Al Shabab",
+        "player": "Ahmed Abdu",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "68'",
+        "team": "Al Akhdoud",
+        "player": "Awdh Faraj",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "74'",
+        "team": "Al Akhdoud",
+        "player": "Ahmed Mostafa",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "74'",
+        "team": "Al Akhdoud",
+        "player": "F. Tănase",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Al Akhdoud",
+        "player": "Musleh Al Shaikh",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "85'",
+        "team": "Al Shabab",
+        "player": "Abdullah Al Joui",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "85'",
+        "team": "Al Shabab",
+        "player": "Moteb Al Harbi",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al Akhdoud",
+        "player": "Juan Pedroza",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "89'",
+        "team": "Al Akhdoud",
+        "player": "Álex Collado",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +6",
+        "team": "Al Shabab",
+        "player": "Hussain Alsebyani",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074248,
+    "date": "2023-08-17T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Riyadh",
+    "venue": "Dhamak Club Stadium",
+    "events": [
+      {
+        "time": "12'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "35'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "41'",
+        "team": "Al Riyadh",
+        "player": "Ali Al-Zaqan",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "46'",
+        "team": "Damac",
+        "player": "Hassan Abu Shararah",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "53'",
+        "team": "Damac",
+        "player": "Abdullah Al Ammar",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "59'",
+        "team": "Al Riyadh",
+        "player": "Hussain Ali Alnowaiqi",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Damac",
+        "player": "Ahmed Harisi",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Damac",
+        "player": "A. Maher",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "73'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Damac",
+        "player": "Assan Ceesay",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "86'",
+        "team": "Al Riyadh",
+        "player": "Ali Al Zaqan",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "89'",
+        "team": "Al Riyadh",
+        "player": "Martín Campaña",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": "89'",
+        "team": "Damac",
+        "player": "Abdullah Al Hawsawi",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +11",
+        "team": "Damac",
+        "player": "Abdullah Al-Amar",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": "90' +4",
+        "team": "Damac",
+        "player": "Abdulaziz Al Bishi",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90' +10",
+        "team": "Damac",
+        "player": "Abdullah Al Ammar                                 ",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074320,
+    "date": "2023-10-22T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "events": [
+      {
+        "time": "7'",
+        "team": "Al Riyadh",
+        "player": "Birama Touré",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "10'",
+        "team": "Al Riyadh",
+        "player": "Mohammed Al Aqal",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "18'",
+        "team": "Al Riyadh",
+        "player": "Khalid Al Shuwayyi",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "41'",
+        "team": "Al Riyadh",
+        "player": "Didier N'Dong",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "45' +2",
+        "team": "Al-Ettifaq",
+        "player": "Demarai Gray",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "46'",
+        "team": "Al-Ettifaq",
+        "player": "Abdullah Khateeb",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "64'",
+        "team": "Al Riyadh",
+        "player": "Mohammed Al Aqel",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "67'",
+        "team": "Al Riyadh",
+        "player": "Martín Campaña",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": "74'",
+        "team": "Al-Ettifaq",
+        "player": "Hamed Al Ghamdi",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "79'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "79'",
+        "team": "Al Riyadh",
+        "player": "Abdullah Al Dossari",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "87'",
+        "team": "Al-Ettifaq",
+        "player": "Mohammed Al Kuwaykibi",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "87'",
+        "team": "Al-Ettifaq",
+        "player": "G. Wijnaldum",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +6",
+        "team": "Al Riyadh",
+        "player": "Juanmi",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074332,
+    "date": "2023-10-26T15:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Taawon",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "events": [
+      {
+        "time": "12'",
+        "team": "Al Taawon",
+        "player": "Aloyayari Abdulmalik",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "30'",
+        "team": "Al Taawon",
+        "player": "Flávio",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "35'",
+        "team": "Al Khaleej Saihat",
+        "player": "L. López",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "37'",
+        "team": "Al Taawon",
+        "player": "João Pedro",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "42'",
+        "team": "Al Khaleej Saihat",
+        "player": "Khaled Narey",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "66'",
+        "team": "Al Taawon",
+        "player": "Saad Al Nasser",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al Khaleej Saihat",
+        "player": "Abdulelah",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "78'",
+        "team": "Al Khaleej Saihat",
+        "player": "Lisandro López",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "90' +6",
+        "team": "Al Taawon",
+        "player": "Muath Faqeehi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +2",
+        "team": "Al Khaleej Saihat",
+        "player": "Ivo Rodrigues",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "90' +7",
+        "team": "Al Khaleej Saihat",
+        "player": "Fábio Martins",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90' +1",
+        "team": "Al Taawon",
+        "player": "M. Barrow",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074334,
+    "date": "2023-10-26T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Akhdoud",
+    "venue": "Dhamak Club Stadium",
+    "events": [
+      {
+        "time": "10'",
+        "team": "Damac",
+        "player": "Georges-Kévin N'Koudou",
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": "36'",
+        "team": "Al Akhdoud",
+        "player": "Léandre Tawamba",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "48'",
+        "team": "Damac",
+        "player": "Ahmed Al Zain",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "53'",
+        "team": "Damac",
+        "player": "Ahmad Zain",
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": "57'",
+        "team": "Al Akhdoud",
+        "player": "Awdh Faraj",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "62'",
+        "team": "Al Akhdoud",
+        "player": "Florin Tănase",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "62'",
+        "team": "Al Akhdoud",
+        "player": "Florin Tănase",
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": "69'",
+        "team": "Damac",
+        "player": "G. Nkoudou",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "79'",
+        "team": "Damac",
+        "player": "Dhari Al-Enezi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": "82'",
+        "team": "Damac",
+        "player": "Ahmed Al Zain",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "90' +6",
+        "team": "Damac",
+        "player": "Tarek Hamed",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +4",
+        "team": "Damac",
+        "player": "A. Ceesay",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074329,
+    "date": "2023-10-26T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "events": [
+      {
+        "time": "26'",
+        "team": "Al-Ittihad FC",
+        "player": "K. Benzema",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "45' +4",
+        "team": "Al-Hazm",
+        "player": "Vina",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "46'",
+        "team": "Al-Hazm",
+        "player": "M. Badamosi",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "46'",
+        "team": "Al-Ittihad FC",
+        "player": "Omar Hawsawi",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "49'",
+        "team": "Al-Ittihad FC",
+        "player": "Sultan Farhan",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "58'",
+        "team": "Al-Hazm",
+        "player": "Mohammed Abusabaan",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "63'",
+        "team": "Al-Hazm",
+        "player": "Mohammed Al Thani",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "67'",
+        "team": "Al-Ittihad FC",
+        "player": "Haroune Camara",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "67'",
+        "team": "Al-Ittihad FC",
+        "player": "Sultan Farhan",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "74'",
+        "team": "Al-Hazm",
+        "player": "Bruno Viana",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "81'",
+        "team": "Al-Ittihad FC",
+        "player": "Hassan Kadesh",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al-Hazm",
+        "player": "Majed Qasheesh",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al-Hazm",
+        "player": "Mohammed Al Thani",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al-Hazm",
+        "player": "F. Selemani",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "90'",
+        "team": "Al-Ittihad FC",
+        "player": "Ahmed Bamasud",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +2",
+        "team": "Al-Hazm",
+        "player": "F. Selemani",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90' +5",
+        "team": "Al-Ittihad FC",
+        "player": "Faisal Al-Ghamdi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074333,
+    "date": "2023-10-27T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Fateh",
+    "venue": "King Abdullah Sport City Stadium",
+    "events": [
+      {
+        "time": "24'",
+        "team": "Al-Raed",
+        "player": "Mathias Normann",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "28'",
+        "team": "Al-Fateh",
+        "player": "Tawfiq Buhumaid",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "30'",
+        "team": "Al-Fateh",
+        "player": "Abdullah Almogren",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "45' +3",
+        "team": "Al-Fateh",
+        "player": "Cristian Tello",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "57'",
+        "team": "Al-Raed",
+        "player": "Hamad Al-Jayzani",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "58'",
+        "team": "Al-Fateh",
+        "player": "Abbas Al Hassan",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "58'",
+        "team": "Al-Fateh",
+        "player": "Tawfiq Buhumaid",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "58'",
+        "team": "Al-Fateh",
+        "player": "Saeed Baattia",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "62'",
+        "team": "Al-Raed",
+        "player": "Mansour Al Bishi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "65'",
+        "team": "Al-Raed",
+        "player": "Yahya Sunbul",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "69'",
+        "team": "Al-Raed",
+        "player": "K. El Berkaoui",
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Al-Fateh",
+        "player": "Ali Alzubaidi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "79'",
+        "team": "Al-Fateh",
+        "player": "Abdullah Al Mogren",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "80'",
+        "team": "Al-Raed",
+        "player": "Mohammed Al-Dosari",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +1",
+        "team": "Al-Raed",
+        "player": "M. Loum",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "90' +1",
+        "team": "Al-Raed",
+        "player": "Hamad Al Jayzani",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90' +5",
+        "team": "Al-Fateh",
+        "player": "L. Zelarayán",
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": "90' +5",
+        "team": "Al-Fateh",
+        "player": "Jacob Rinne",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074337,
+    "date": "2023-10-27T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "events": [
+      {
+        "time": "8'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "28'",
+        "team": "Al Taee",
+        "player": "M. Dugandžić",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "37'",
+        "team": "Al Taee",
+        "player": "Rakan Shamlan",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "40'",
+        "team": "Al Taee",
+        "player": "Alfa Semedo",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "45' +2",
+        "team": "Al Taee",
+        "player": "Rakan Shamlan",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "54'",
+        "team": "Al Taee",
+        "player": "Rakan Shamlan",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "60'",
+        "team": "Al Riyadh",
+        "player": "Abdullah Al Dossari",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "65'",
+        "team": "Al Taee",
+        "player": "V. Misidjan",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "78'",
+        "team": "Al Riyadh",
+        "player": "Saleh Al Abbas",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "78'",
+        "team": "Al Riyadh",
+        "player": "Juanmi",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al Taee",
+        "player": "Hussain Qasim",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al Riyadh",
+        "player": "Khalid Al Shuwayyi",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "89'",
+        "team": "Al Taee",
+        "player": "Andrei Cordea",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": "89'",
+        "team": "Al Riyadh",
+        "player": "Amiri Kurdi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "90' +2",
+        "team": "Al Riyadh",
+        "player": "B. Touré",
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074331,
+    "date": "2023-10-27T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "King Fahd International Stadium",
+    "events": [
+      {
+        "time": "1'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "S. Milinković-Savić",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "32'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Roger Ibañez",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "37'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "A. Mitrović",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "45' +4",
+        "team": "Al-Ahli Jeddah",
+        "player": "Abdulbaset Hindi",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "58'",
+        "team": "Al-Ahli Jeddah",
+        "player": "A. Saint-Maximin",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Mohammed Al Majhad",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Al-Ahli Jeddah",
+        "player": "A. Saint-Maximin",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Michael",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "84'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Ibañez",
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Ali Al-Asmari",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "88'",
+        "team": "Al-Ahli Jeddah",
+        "player": "Gabri Veiga",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "89'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Yasir Al Shahrani",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "90' +1",
+        "team": "Al-Ahli Jeddah",
+        "player": "Franck Kessié",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90'",
+        "team": "Al-Hilal Saudi FC",
+        "player": "Salem Al Dawsari",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074336,
+    "date": "2023-10-28T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Nassr",
+    "venue": "King Fahd International Stadium",
+    "events": [
+      {
+        "time": "20'",
+        "team": "Al-Fayha",
+        "player": "Ricardo Ryller",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "50'",
+        "team": "Al-Nassr",
+        "player": "Talisca",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "53'",
+        "team": "Al-Nassr",
+        "player": "Abdulelah Al-Amri",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "61'",
+        "team": "Al-Nassr",
+        "player": "Talisca",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "66'",
+        "team": "Al-Nassr",
+        "player": "Talisca",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "66'",
+        "team": "Al-Fayha",
+        "player": "Hussain Al Shuwaish",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "74'",
+        "team": "Al-Nassr",
+        "player": "Otávio",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al-Fayha",
+        "player": "G. Cimirot",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "77'",
+        "team": "Al-Fayha",
+        "player": "H. Onyekuru",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al-Fayha",
+        "player": "A. Sabiri",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al-Fayha",
+        "player": "G. Konan",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al-Nassr",
+        "player": "Abdulrahman Ghareeb",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "89'",
+        "team": "Al-Fayha",
+        "player": "Abdulrahman Al-Safri",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +4",
+        "team": "Al-Nassr",
+        "player": "S. Mané",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90' +3",
+        "team": "Al-Nassr",
+        "player": "Cristiano Ronaldo",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074335,
+    "date": "2023-10-28T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Shabab",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "events": [
+      {
+        "time": "68'",
+        "team": "Al Shabab",
+        "player": "Iago Santos",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "68'",
+        "team": "Al Shabab",
+        "player": "Hattan Bahbri",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "68'",
+        "team": "Al Shabab",
+        "player": "H. Diallo",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "70'",
+        "team": "Abha",
+        "player": "Ahmed Abdu",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "72'",
+        "team": "Al Shabab",
+        "player": "Iago Santos",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "72'",
+        "team": "Al Shabab",
+        "player": "Iago Santos",
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "73'",
+        "team": "Abha",
+        "player": "S. Bguir",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Al Shabab",
+        "player": "É. Banega",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "76'",
+        "team": "Al Shabab",
+        "player": "Fahad Al Muwallad",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "81'",
+        "team": "Al Shabab",
+        "player": "Romain Saïss",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "82'",
+        "team": "Abha",
+        "player": "G. Krychowiak",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "86'",
+        "team": "Al Shabab",
+        "player": "Carlos Júnior",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Abha",
+        "player": "S. Bguir",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Abha",
+        "player": "Suad Natiq",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "90' +7",
+        "team": "Abha",
+        "player": "Abdulelah Alshamary",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +2",
+        "team": "Abha",
+        "player": "Mohammed Al Oufi",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  },
+  {
+    "fixture_id": 1074330,
+    "date": "2023-10-28T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Ettifaq",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "events": [
+      {
+        "time": "16'",
+        "team": "Al-Ettifaq",
+        "player": "Hamdan Al Shamrani",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "18'",
+        "team": "Al-Ettifaq",
+        "player": "G. Wijnaldum",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "37'",
+        "team": "Al Wehda Club",
+        "player": "C. Goodwin",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "45' +3",
+        "team": "Al-Ettifaq",
+        "player": "Abdullah Khateeb",
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": "51'",
+        "team": "Al Wehda Club",
+        "player": "C. Goodwin",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "54'",
+        "team": "Al Wehda Club",
+        "player": "Hussain Ahmed Al Issa",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": "58'",
+        "team": "Al-Ettifaq",
+        "player": "Jordan Henderson",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "63'",
+        "team": "Al-Ettifaq",
+        "player": "Mohammed Abdulrahman",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "63'",
+        "team": "Al-Ettifaq",
+        "player": "Mohammed Al Kuwaykibi",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "75'",
+        "team": "Al Wehda Club",
+        "player": "Abdulaziz Noor",
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": "81'",
+        "team": "Al-Ettifaq",
+        "player": "G. Wijnaldum",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "83'",
+        "team": "Al-Ettifaq",
+        "player": "Jordan Henderson",
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al Wehda Club",
+        "player": "Hussain Al Eisa",
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al Wehda Club",
+        "player": "Ali Makki",
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": "88'",
+        "team": "Al Wehda Club",
+        "player": "C. Goodwin",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +8",
+        "team": "Al-Ettifaq",
+        "player": "D. Gray",
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": "90' +4",
+        "team": "Al Wehda Club",
+        "player": "Abdullah Bukhari",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +12",
+        "team": "Al-Ettifaq",
+        "player": "D. Gray",
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": "90' +10",
+        "team": "Al-Ettifaq",
+        "player": "Jack Hendry",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": "90' +1",
+        "team": "Al Wehda Club",
+        "player": "Vito van Crooij",
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+]

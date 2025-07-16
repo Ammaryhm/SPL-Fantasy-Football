@@ -1,0 +1,236 @@
+[
+  {
+    "team_id": 2928,
+    "team_name": {
+      "english": "Al Khaleej Saihat",
+      "arabic_saudi": "الخليج سيهات"
+    },
+    "founded": 1945,
+    "logo": "https://media.api-sports.io/football/teams/2928.png",
+    "stadium_name": "Prince Mohamed bin Fahd Stadium",
+    "stadium_city": "Dammam",
+    "stadium_capacity": 35000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1370.png"
+  },
+  {
+    "team_id": 2929,
+    "team_name": {
+      "english": "Al-Ahli Jeddah",
+      "arabic_saudi": "الأهلي جدة"
+    },
+    "founded": 1937,
+    "logo": "https://media.api-sports.io/football/teams/2929.png",
+    "stadium_name": "Prince Abdullah al-Faisal Stadium",
+    "stadium_city": "Jeddah",
+    "stadium_capacity": 27000,
+    "stadium_image": "https://media.api-sports.io/football/venues/19932.png"
+  },
+  {
+    "team_id": 2931,
+    "team_name": {
+      "english": "Al-Fateh",
+      "arabic_saudi": "الفتح"
+    },
+    "founded": 1958,
+    "logo": "https://media.api-sports.io/football/teams/2931.png",
+    "stadium_name": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "stadium_city": "Al-Hasa",
+    "stadium_capacity": 27550,
+    "stadium_image": "https://media.api-sports.io/football/venues/1363.png"
+  },
+  {
+    "team_id": 2932,
+    "team_name": {
+      "english": "Al-Hilal Saudi FC",
+      "arabic_saudi": "نادي الهلال السعودي"
+    },
+    "founded": 1957,
+    "logo": "https://media.api-sports.io/football/teams/2932.png",
+    "stadium_name": "Kingdom Arena",
+    "stadium_city": "Riyadh",
+    "stadium_capacity": 26000,
+    "stadium_image": "https://media.api-sports.io/football/venues/20744.png"
+  },
+  {
+    "team_id": 2934,
+    "team_name": {
+      "english": "Al-Ettifaq",
+      "arabic_saudi": "الاتفاق"
+    },
+    "founded": 1944,
+    "logo": "https://media.api-sports.io/football/teams/2934.png",
+    "stadium_name": "Prince Mohamed bin Fahd Stadium",
+    "stadium_city": "Dammam",
+    "stadium_capacity": 35000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1370.png"
+  },
+  {
+    "team_id": 2935,
+    "team_name": {
+      "english": "Al-Raed",
+      "arabic_saudi": "الرائد"
+    },
+    "founded": 1954,
+    "logo": "https://media.api-sports.io/football/teams/2935.png",
+    "stadium_name": "King Abdullah Sport City Stadium",
+    "stadium_city": "Buraidah",
+    "stadium_capacity": 29850,
+    "stadium_image": "https://media.api-sports.io/football/venues/1377.png"
+  },
+  {
+    "team_id": 2936,
+    "team_name": {
+      "english": "Al Taawon",
+      "arabic_saudi": "التعاون"
+    },
+    "founded": 1956,
+    "logo": "https://media.api-sports.io/football/teams/2936.png",
+    "stadium_name": "Al Taawon Club Stadium",
+    "stadium_city": "Buraidah",
+    "stadium_capacity": 10000,
+    "stadium_image": "https://media.api-sports.io/football/venues/19934.png"
+  },
+  {
+    "team_id": 2937,
+    "team_name": {
+      "english": "Al Wehda Club",
+      "arabic_saudi": "نادي الوحدة"
+    },
+    "founded": 1945,
+    "logo": "https://media.api-sports.io/football/teams/2937.png",
+    "stadium_name": "King Abdulaziz Sports City Stadium",
+    "stadium_city": "Mecca",
+    "stadium_capacity": 33195,
+    "stadium_image": "https://media.api-sports.io/football/venues/10518.png"
+  },
+  {
+    "team_id": 2938,
+    "team_name": {
+      "english": "Al-Ittihad FC",
+      "arabic_saudi": "نادي الاتحاد"
+    },
+    "founded": 1927,
+    "logo": "https://media.api-sports.io/football/teams/2938.png",
+    "stadium_name": "King Abdullah Sports City",
+    "stadium_city": "Jeddah",
+    "stadium_capacity": 63079,
+    "stadium_image": "https://media.api-sports.io/football/venues/1364.png"
+  },
+  {
+    "team_id": 2939,
+    "team_name": {
+      "english": "Al-Nassr",
+      "arabic_saudi": "النصر"
+    },
+    "founded": 1955,
+    "logo": "https://media.api-sports.io/football/teams/2939.png",
+    "stadium_name": "Al Awal Park at King Saud University",
+    "stadium_city": "Riyadh",
+    "stadium_capacity": 25000,
+    "stadium_image": "https://media.api-sports.io/football/venues/19933.png"
+  },
+  {
+    "team_id": 2940,
+    "team_name": {
+      "english": "Al Shabab",
+      "arabic_saudi": "الشباب"
+    },
+    "founded": 1947,
+    "logo": "https://media.api-sports.io/football/teams/2940.png",
+    "stadium_name": "Prince Faisal bin Fahd Stadium",
+    "stadium_city": "Riyadh",
+    "stadium_capacity": 28000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1374.png"
+  },
+  {
+    "team_id": 2942,
+    "team_name": {
+      "english": "Al Taee",
+      "arabic_saudi": "الطائي"
+    },
+    "founded": 1960,
+    "logo": "https://media.api-sports.io/football/teams/2942.png",
+    "stadium_name": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "stadium_city": "Hail",
+    "stadium_capacity": 20000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1371.png"
+  },
+  {
+    "team_id": 2944,
+    "team_name": {
+      "english": "Al-Fayha",
+      "arabic_saudi": "الفيحاء"
+    },
+    "founded": null,
+    "logo": "https://media.api-sports.io/football/teams/2944.png",
+    "stadium_name": "Al Majma'ah Sports City Stadium",
+    "stadium_city": "Al Majma&apos;ah",
+    "stadium_capacity": 7000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1367.png"
+  },
+  {
+    "team_id": 2945,
+    "team_name": {
+      "english": "Al-Hazm",
+      "arabic_saudi": "الحزم"
+    },
+    "founded": 1965,
+    "logo": "https://media.api-sports.io/football/teams/2945.png",
+    "stadium_name": "Ar-Rass Stadium (Al Hazm Club Stadium)",
+    "stadium_city": "Rass",
+    "stadium_capacity": 8000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1368.png"
+  },
+  {
+    "team_id": 2951,
+    "team_name": {
+      "english": "Abha",
+      "arabic_saudi": "أبها"
+    },
+    "founded": null,
+    "logo": "https://media.api-sports.io/football/teams/2951.png",
+    "stadium_name": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "stadium_city": "Abha",
+    "stadium_capacity": 20000,
+    "stadium_image": "https://media.api-sports.io/football/venues/10516.png"
+  },
+  {
+    "team_id": 2956,
+    "team_name": {
+      "english": "Damac",
+      "arabic_saudi": "ضَمَك."
+    },
+    "founded": 1970,
+    "logo": "https://media.api-sports.io/football/teams/2956.png",
+    "stadium_name": "Dhamak Club Stadium",
+    "stadium_city": "Khamis Mushait",
+    "stadium_capacity": 3646,
+    "stadium_image": "https://media.api-sports.io/football/venues/19935.png"
+  },
+  {
+    "team_id": 2977,
+    "team_name": {
+      "english": "Al Akhdoud",
+      "arabic_saudi": "الأخضر"
+    },
+    "founded": 1976,
+    "logo": "https://media.api-sports.io/football/teams/2977.png",
+    "stadium_name": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "stadium_city": "Najran",
+    "stadium_capacity": 10000,
+    "stadium_image": "https://media.api-sports.io/football/venues/12238.png"
+  },
+  {
+    "team_id": 10511,
+    "team_name": {
+      "english": "Al Riyadh",
+      "arabic_saudi": "الرياض"
+    },
+    "founded": 1954,
+    "logo": "https://media.api-sports.io/football/teams/10511.png",
+    "stadium_name": "Prince Faisal bin Fahd Stadium",
+    "stadium_city": "Riyadh",
+    "stadium_capacity": 28000,
+    "stadium_image": "https://media.api-sports.io/football/venues/1374.png"
+  }
+]

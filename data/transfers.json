@@ -1,0 +1,146 @@
+[
+  {
+    "team_id": 2928,
+    "team_name": {
+      "english": "Al Khaleej Saihat",
+      "arabic_saudi": "الخليج سيهات"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2929,
+    "team_name": {
+      "english": "Al-Ahli Jeddah",
+      "arabic_saudi": "الأهلي جدة"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2931,
+    "team_name": {
+      "english": "Al-Fateh",
+      "arabic_saudi": "الفتح"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2932,
+    "team_name": {
+      "english": "Al-Hilal Saudi FC",
+      "arabic_saudi": "نادي الهلال السعودي"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2934,
+    "team_name": {
+      "english": "Al-Ettifaq",
+      "arabic_saudi": "الاتفاق"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2935,
+    "team_name": {
+      "english": "Al-Raed",
+      "arabic_saudi": "الرائد"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2936,
+    "team_name": {
+      "english": "Al Taawon",
+      "arabic_saudi": "التعاون"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2937,
+    "team_name": {
+      "english": "Al Wehda Club",
+      "arabic_saudi": "نادي الوحدة"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2938,
+    "team_name": {
+      "english": "Al-Ittihad FC",
+      "arabic_saudi": "نادي الاتحاد"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2939,
+    "team_name": {
+      "english": "Al-Nassr",
+      "arabic_saudi": "النصر"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2940,
+    "team_name": {
+      "english": "Al Shabab",
+      "arabic_saudi": "الشباب"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2942,
+    "team_name": {
+      "english": "Al Taee",
+      "arabic_saudi": "الطائي"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2944,
+    "team_name": {
+      "english": "Al-Fayha",
+      "arabic_saudi": "الفيحاء"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2945,
+    "team_name": {
+      "english": "Al-Hazm",
+      "arabic_saudi": "الحزم"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2951,
+    "team_name": {
+      "english": "Abha",
+      "arabic_saudi": "أبها"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2956,
+    "team_name": {
+      "english": "Damac",
+      "arabic_saudi": "ضَمَك."
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 2977,
+    "team_name": {
+      "english": "Al Akhdoud",
+      "arabic_saudi": "الأخضر"
+    },
+    "transfers": []
+  },
+  {
+    "team_id": 10511,
+    "team_name": {
+      "english": "Al Riyadh",
+      "arabic_saudi": "الرياض"
+    },
+    "transfers": []
+  }
+]

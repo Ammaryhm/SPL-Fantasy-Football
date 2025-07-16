@@ -1,0 +1,2450 @@
+[
+  {
+    "fixture_id": 1074239,
+    "date": "2023-08-11T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074240,
+    "date": "2023-08-12T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Damac",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074241,
+    "date": "2023-08-12T18:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074242,
+    "date": "2023-08-13T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Taawon",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074243,
+    "date": "2023-08-13T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074245,
+    "date": "2023-08-14T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074244,
+    "date": "2023-08-14T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074246,
+    "date": "2023-08-14T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074247,
+    "date": "2023-08-14T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074248,
+    "date": "2023-08-17T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Riyadh",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074249,
+    "date": "2023-08-17T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074250,
+    "date": "2023-08-18T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Fateh",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074253,
+    "date": "2023-08-18T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al Shabab",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074252,
+    "date": "2023-08-18T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Taawon",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074251,
+    "date": "2023-08-18T18:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Ettifaq",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074254,
+    "date": "2023-08-19T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Raed",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074255,
+    "date": "2023-08-19T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Fayha",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074256,
+    "date": "2023-08-19T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Taee",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074257,
+    "date": "2023-08-24T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074260,
+    "date": "2023-08-24T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074259,
+    "date": "2023-08-24T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074258,
+    "date": "2023-08-24T18:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074261,
+    "date": "2023-08-24T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074262,
+    "date": "2023-08-25T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Hazm",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074265,
+    "date": "2023-08-25T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074264,
+    "date": "2023-08-25T18:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Abha",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074263,
+    "date": "2023-08-25T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Damac",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074266,
+    "date": "2023-08-28T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074268,
+    "date": "2023-08-28T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074267,
+    "date": "2023-08-28T18:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Riyadh",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074269,
+    "date": "2023-08-28T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074271,
+    "date": "2023-08-29T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Fateh",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074270,
+    "date": "2023-08-29T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al Taawon",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074272,
+    "date": "2023-08-29T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074273,
+    "date": "2023-08-29T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Taee",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074274,
+    "date": "2023-08-29T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Shabab",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074276,
+    "date": "2023-09-01T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Abha",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074275,
+    "date": "2023-09-01T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Raed",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074278,
+    "date": "2023-09-01T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074277,
+    "date": "2023-09-01T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074280,
+    "date": "2023-09-02T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074279,
+    "date": "2023-09-02T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Damac",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074283,
+    "date": "2023-09-02T18:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al Wehda Club",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074281,
+    "date": "2023-09-02T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074282,
+    "date": "2023-09-02T18:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Nassr",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074284,
+    "date": "2023-09-14T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074292,
+    "date": "2023-09-14T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Damac",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074286,
+    "date": "2023-09-15T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Shabab",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074291,
+    "date": "2023-09-15T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Fateh",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074287,
+    "date": "2023-09-15T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074288,
+    "date": "2023-09-16T12:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074285,
+    "date": "2023-09-16T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Nassr",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074289,
+    "date": "2023-09-16T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Taee",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074290,
+    "date": "2023-09-16T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Taawon",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074297,
+    "date": "2023-09-21T15:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Taee",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074294,
+    "date": "2023-09-21T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Raed",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074299,
+    "date": "2023-09-21T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074296,
+    "date": "2023-09-21T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Fateh",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074295,
+    "date": "2023-09-21T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074293,
+    "date": "2023-09-22T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074298,
+    "date": "2023-09-22T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074300,
+    "date": "2023-09-22T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Abha",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074301,
+    "date": "2023-09-22T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074303,
+    "date": "2023-09-29T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074305,
+    "date": "2023-09-29T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074304,
+    "date": "2023-09-29T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Taawon",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074307,
+    "date": "2023-09-29T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Shabab",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074308,
+    "date": "2023-09-30T12:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074302,
+    "date": "2023-09-30T15:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074306,
+    "date": "2023-09-30T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Akhdoud",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074310,
+    "date": "2023-09-30T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Damac",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074309,
+    "date": "2023-09-30T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074311,
+    "date": "2023-10-05T12:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Hazm",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074317,
+    "date": "2023-10-05T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al Taee",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074313,
+    "date": "2023-10-05T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Shabab",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074319,
+    "date": "2023-10-05T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Fateh",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074315,
+    "date": "2023-10-06T15:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Abha",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074316,
+    "date": "2023-10-06T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074312,
+    "date": "2023-10-07T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074318,
+    "date": "2023-10-07T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Raed",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074314,
+    "date": "2023-10-07T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Fayha",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074322,
+    "date": "2023-10-20T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074325,
+    "date": "2023-10-20T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074323,
+    "date": "2023-10-20T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Abha",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074327,
+    "date": "2023-10-20T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074321,
+    "date": "2023-10-21T15:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Damac",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074326,
+    "date": "2023-10-21T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Raed",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074324,
+    "date": "2023-10-21T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074328,
+    "date": "2023-10-21T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Taee",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074320,
+    "date": "2023-10-22T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074332,
+    "date": "2023-10-26T15:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Taawon",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074334,
+    "date": "2023-10-26T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Akhdoud",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074329,
+    "date": "2023-10-26T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074333,
+    "date": "2023-10-27T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Fateh",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074337,
+    "date": "2023-10-27T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074331,
+    "date": "2023-10-27T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074336,
+    "date": "2023-10-28T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Nassr",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074335,
+    "date": "2023-10-28T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Shabab",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074330,
+    "date": "2023-10-28T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Ettifaq",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074344,
+    "date": "2023-11-03T15:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Abdullah bin Jalawi Sports City Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074342,
+    "date": "2023-11-03T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074346,
+    "date": "2023-11-03T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074345,
+    "date": "2023-11-04T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074338,
+    "date": "2023-11-04T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Raed",
+    "venue": "Abdullah Al Dabil Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074341,
+    "date": "2023-11-04T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074340,
+    "date": "2023-11-05T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Damac",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074343,
+    "date": "2023-11-05T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Wehda Club",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074339,
+    "date": "2023-11-05T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074350,
+    "date": "2023-11-09T15:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Taee",
+    "venue": "Prince Saud bin Jalawi Stadium",
+    "city": "Khobar"
+  },
+  {
+    "fixture_id": 1074353,
+    "date": "2023-11-09T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Shabab",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074352,
+    "date": "2023-11-09T18:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074354,
+    "date": "2023-11-09T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Fateh",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074355,
+    "date": "2023-11-10T15:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Taawon",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074351,
+    "date": "2023-11-10T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Abha",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074347,
+    "date": "2023-11-11T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074348,
+    "date": "2023-11-11T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074349,
+    "date": "2023-11-11T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Nassr",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074358,
+    "date": "2023-11-24T15:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074360,
+    "date": "2023-11-24T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al Riyadh",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074364,
+    "date": "2023-11-24T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Akhdoud",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074357,
+    "date": "2023-11-24T18:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Raed",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074362,
+    "date": "2023-11-25T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074363,
+    "date": "2023-11-25T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Shabab",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074361,
+    "date": "2023-11-25T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Fayha",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074356,
+    "date": "2023-11-25T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074359,
+    "date": "2023-11-25T18:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Abha",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074373,
+    "date": "2023-11-30T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074368,
+    "date": "2023-11-30T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074367,
+    "date": "2023-11-30T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074370,
+    "date": "2023-12-01T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Damac",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074371,
+    "date": "2023-12-01T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Nassr",
+    "venue": "King Fahd International Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074365,
+    "date": "2023-12-02T15:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Taee",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074366,
+    "date": "2023-12-02T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074369,
+    "date": "2023-12-02T18:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Wehda Club",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074372,
+    "date": "2023-12-02T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Taawon",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074376,
+    "date": "2023-12-07T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Fateh",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074380,
+    "date": "2023-12-07T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074381,
+    "date": "2023-12-07T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074382,
+    "date": "2023-12-08T15:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Abha",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074379,
+    "date": "2023-12-08T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Fayha",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074374,
+    "date": "2023-12-08T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074375,
+    "date": "2023-12-08T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Riyadh",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074378,
+    "date": "2023-12-09T15:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Raed",
+    "venue": "King Fahd Sport City Stadium",
+    "city": "Ta'if"
+  },
+  {
+    "fixture_id": 1074377,
+    "date": "2023-12-09T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al Akhdoud",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074386,
+    "date": "2023-12-14T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074388,
+    "date": "2023-12-14T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al Taee",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074390,
+    "date": "2023-12-14T18:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074385,
+    "date": "2023-12-15T15:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Shabab",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074391,
+    "date": "2023-12-15T15:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074384,
+    "date": "2023-12-15T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Damac",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074389,
+    "date": "2023-12-16T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074383,
+    "date": "2023-12-16T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Taawon",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074392,
+    "date": "2023-12-21T15:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074399,
+    "date": "2023-12-21T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Taee",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074395,
+    "date": "2023-12-21T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Abha",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074396,
+    "date": "2023-12-22T15:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074397,
+    "date": "2023-12-22T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074393,
+    "date": "2023-12-22T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al Shabab",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074398,
+    "date": "2023-12-23T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Fateh",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074400,
+    "date": "2023-12-23T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Raed",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074394,
+    "date": "2023-12-24T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al Riyadh",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074387,
+    "date": "2023-12-26T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074406,
+    "date": "2023-12-28T15:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074409,
+    "date": "2023-12-28T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Damac",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074405,
+    "date": "2023-12-29T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Abha",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074402,
+    "date": "2023-12-29T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074407,
+    "date": "2023-12-29T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074401,
+    "date": "2023-12-30T15:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Akhdoud",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074408,
+    "date": "2023-12-30T18:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Nassr",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074404,
+    "date": "2023-12-30T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Wehda Club",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074403,
+    "date": "2024-02-07T18:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074417,
+    "date": "2024-02-15T14:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Taawon",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074418,
+    "date": "2024-02-15T17:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074410,
+    "date": "2024-02-16T14:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Shabab",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074412,
+    "date": "2024-02-16T17:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al Taee",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074413,
+    "date": "2024-02-16T17:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074414,
+    "date": "2024-02-17T14:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Fayha",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074411,
+    "date": "2024-02-17T17:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Fateh",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074416,
+    "date": "2024-02-18T14:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Raed",
+    "venue": "Kingdom Arena",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074415,
+    "date": "2024-02-18T17:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074419,
+    "date": "2024-02-23T14:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al Akhdoud",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074421,
+    "date": "2024-02-23T14:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Raed",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074425,
+    "date": "2024-02-23T17:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Damac",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074426,
+    "date": "2024-02-24T14:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074420,
+    "date": "2024-02-24T17:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074422,
+    "date": "2024-02-25T14:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Abha",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074427,
+    "date": "2024-02-25T17:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Nassr",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074424,
+    "date": "2024-02-26T14:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074423,
+    "date": "2024-02-26T17:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Wehda Club",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074430,
+    "date": "2024-02-29T14:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Fayha",
+    "venue": "Al Raid Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074428,
+    "date": "2024-02-29T14:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al Taawon",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074433,
+    "date": "2024-02-29T17:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Hazm",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074436,
+    "date": "2024-03-01T14:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Taee",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074431,
+    "date": "2024-03-01T14:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074435,
+    "date": "2024-03-01T17:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Kingdom Arena",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074432,
+    "date": "2024-03-02T14:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Shabab",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074434,
+    "date": "2024-03-02T14:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Ettifaq",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074429,
+    "date": "2024-03-02T17:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Fateh",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074445,
+    "date": "2024-03-07T14:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Fayha",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074441,
+    "date": "2024-03-07T14:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Wehda Club",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074438,
+    "date": "2024-03-07T17:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Raed",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074442,
+    "date": "2024-03-08T14:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074444,
+    "date": "2024-03-08T14:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074439,
+    "date": "2024-03-08T17:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074437,
+    "date": "2024-03-09T14:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074443,
+    "date": "2024-03-09T14:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Abha",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074440,
+    "date": "2024-03-09T17:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074446,
+    "date": "2024-03-14T19:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074452,
+    "date": "2024-03-14T19:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Shabab",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074454,
+    "date": "2024-03-14T19:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074449,
+    "date": "2024-03-15T19:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Nassr",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074448,
+    "date": "2024-03-15T19:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Ettifaq",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074453,
+    "date": "2024-03-15T19:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Riyadh",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074451,
+    "date": "2024-03-16T19:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074450,
+    "date": "2024-03-16T19:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Damac",
+    "venue": "Kingdom Arena",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074447,
+    "date": "2024-03-16T19:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Taawon",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074460,
+    "date": "2024-03-29T19:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074457,
+    "date": "2024-03-29T19:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Hazm",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074456,
+    "date": "2024-03-29T19:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074461,
+    "date": "2024-03-29T19:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074459,
+    "date": "2024-03-29T19:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Raed",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074455,
+    "date": "2024-03-30T19:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Fateh",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074458,
+    "date": "2024-03-30T19:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Taee",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074462,
+    "date": "2024-03-30T19:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074463,
+    "date": "2024-03-30T19:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Abha",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074467,
+    "date": "2024-04-01T19:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074468,
+    "date": "2024-04-01T19:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Al Raid Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074465,
+    "date": "2024-04-01T19:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Damac",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074471,
+    "date": "2024-04-02T19:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Akhdoud",
+    "venue": "Kingdom Arena",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074469,
+    "date": "2024-04-02T19:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Taawon",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074466,
+    "date": "2024-04-02T19:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Wehda Club",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074470,
+    "date": "2024-04-02T19:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074464,
+    "date": "2024-04-03T19:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074472,
+    "date": "2024-04-03T19:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al Riyadh",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074479,
+    "date": "2024-04-05T19:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074475,
+    "date": "2024-04-05T19:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074473,
+    "date": "2024-04-05T19:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Taawon",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074478,
+    "date": "2024-04-05T19:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074481,
+    "date": "2024-04-06T19:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Riyadh",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074476,
+    "date": "2024-04-06T19:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Shabab",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074477,
+    "date": "2024-04-07T19:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Hazm",
+    "venue": "Al Raid Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074474,
+    "date": "2024-04-07T19:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Akhdoud",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074480,
+    "date": "2024-04-07T19:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Fateh",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074484,
+    "date": "2024-04-18T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074482,
+    "date": "2024-04-18T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Raed",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074489,
+    "date": "2024-04-18T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Abha",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074485,
+    "date": "2024-04-19T15:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Fayha",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074486,
+    "date": "2024-04-19T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Taee",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074488,
+    "date": "2024-04-20T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Damac",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074487,
+    "date": "2024-04-20T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Wehda Club",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074483,
+    "date": "2024-04-20T18:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al-Ittihad FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074492,
+    "date": "2024-04-25T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Taee",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074491,
+    "date": "2024-04-25T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Hazm",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074498,
+    "date": "2024-04-25T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074499,
+    "date": "2024-04-26T15:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Fateh",
+    "venue": "Kingdom Arena",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074495,
+    "date": "2024-04-26T15:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al Taawon",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074497,
+    "date": "2024-04-26T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al Shabab",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074496,
+    "date": "2024-04-27T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al Raid Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074493,
+    "date": "2024-04-27T15:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Abha",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074494,
+    "date": "2024-04-27T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074506,
+    "date": "2024-05-02T15:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Akhdoud",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074505,
+    "date": "2024-05-02T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Damac",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074504,
+    "date": "2024-05-02T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al Riyadh",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074503,
+    "date": "2024-05-03T15:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074500,
+    "date": "2024-05-03T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al-Fayha",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074502,
+    "date": "2024-05-03T18:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074507,
+    "date": "2024-05-04T15:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Raed",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074508,
+    "date": "2024-05-04T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074501,
+    "date": "2024-05-04T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al Wehda Club",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074490,
+    "date": "2024-05-06T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074514,
+    "date": "2024-05-09T15:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al-Fateh",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074511,
+    "date": "2024-05-09T15:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al Taawon",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074509,
+    "date": "2024-05-09T18:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074513,
+    "date": "2024-05-10T15:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Damac",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074512,
+    "date": "2024-05-10T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074510,
+    "date": "2024-05-10T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Al-Ettifaq",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074516,
+    "date": "2024-05-11T15:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al-Hazm",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074515,
+    "date": "2024-05-11T15:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al Taee",
+    "venue": "Al Raid Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074517,
+    "date": "2024-05-11T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074519,
+    "date": "2024-05-16T15:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al-Fateh",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074523,
+    "date": "2024-05-16T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074518,
+    "date": "2024-05-16T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Raed",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074526,
+    "date": "2024-05-17T16:15:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Fayha",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  },
+  {
+    "fixture_id": 1074521,
+    "date": "2024-05-17T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Akhdoud",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074522,
+    "date": "2024-05-17T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074524,
+    "date": "2024-05-18T16:20:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al Shabab",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074520,
+    "date": "2024-05-18T16:20:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Al Riyadh",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074525,
+    "date": "2024-05-18T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Abha",
+    "venue": "King Abdullah Sports City",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074533,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al-Fateh",
+    "away_team": "Al-Hazm",
+    "venue": "Al Fateh Club Stadium",
+    "city": "Al-Hasa"
+  },
+  {
+    "fixture_id": 1074535,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al-Hilal Saudi FC",
+    "away_team": "Al Taee",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074527,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al-Ettifaq",
+    "away_team": "Al Shabab",
+    "venue": "Al Ettifaq Club Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074528,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al-Raed",
+    "away_team": "Al-Ahli Jeddah",
+    "venue": "King Abdullah Sport City Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074529,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al-Ittihad FC",
+    "away_team": "Damac",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074532,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al-Fayha",
+    "away_team": "Al Taawon",
+    "venue": "Al Majma'ah Sports City Stadium",
+    "city": "Al Majma'ah"
+  },
+  {
+    "fixture_id": 1074530,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Abha",
+    "away_team": "Al Khaleej Saihat",
+    "venue": "Prince Sultan bin Abdulaziz Sports City Stadium",
+    "city": "Abha"
+  },
+  {
+    "fixture_id": 1074531,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al Akhdoud",
+    "away_team": "Al Wehda Club",
+    "venue": "Prince Hathloul Bin Abdul Aziz Sport City Stadium",
+    "city": "Najran"
+  },
+  {
+    "fixture_id": 1074534,
+    "date": "2024-05-23T18:00:00+00:00",
+    "home_team": "Al Riyadh",
+    "away_team": "Al-Nassr",
+    "venue": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074541,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "city": "Dammam"
+  },
+  {
+    "fixture_id": 1074544,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "city": "Jeddah"
+  },
+  {
+    "fixture_id": 1074536,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al Taawon Club Stadium",
+    "city": "Buraidah"
+  },
+  {
+    "fixture_id": 1074543,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Wehda Club",
+    "away_team": "Al-Hilal Saudi FC",
+    "venue": "King Abdulaziz Sports City Stadium",
+    "city": "Mecca"
+  },
+  {
+    "fixture_id": 1074538,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al-Nassr",
+    "away_team": "Al-Ittihad FC",
+    "venue": "Al Awal Park at King Saud University",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074539,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Fateh",
+    "venue": "Al-Shabab Club Stadium",
+    "city": "Riyadh"
+  },
+  {
+    "fixture_id": 1074540,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "city": "Hail"
+  },
+  {
+    "fixture_id": 1074537,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Abha",
+    "venue": "Ar-Rass Stadium",
+    "city": "Rass"
+  },
+  {
+    "fixture_id": 1074542,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Raed",
+    "venue": "Dhamak Club Stadium",
+    "city": "Khamis Mushait"
+  }
+]

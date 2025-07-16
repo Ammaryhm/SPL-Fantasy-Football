@@ -1,0 +1,2044 @@
+[
+  {
+    "team": "Al-Ahli Jeddah",
+    "fixture_id": 1074544,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "lineups": [
+      {
+        "team": "Al-Ahli Jeddah",
+        "coach": "M. Jaissle",
+        "formation": "4-2-3-1",
+        "starting_players": [
+          {
+            "name": "É. Mendy",
+            "number": 16,
+            "position": "G"
+          },
+          {
+            "name": "Rayan Hamed",
+            "number": 46,
+            "position": "D"
+          },
+          {
+            "name": "M. Demiral",
+            "number": 28,
+            "position": "D"
+          },
+          {
+            "name": "Ibañez",
+            "number": 3,
+            "position": "D"
+          },
+          {
+            "name": "Saad Yaslam",
+            "number": 31,
+            "position": "D"
+          },
+          {
+            "name": "F. Kessié",
+            "number": 79,
+            "position": "M"
+          },
+          {
+            "name": "Ziyad Al Johani",
+            "number": 30,
+            "position": "M"
+          },
+          {
+            "name": "Fahad Al Rashidi",
+            "number": 19,
+            "position": "M"
+          },
+          {
+            "name": "Roberto Firmino",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Sumayhan Al Nabit",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "Feras Al Brikan",
+            "number": 20,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Gabri Veiga",
+            "number": 24,
+            "position": "M"
+          },
+          {
+            "name": "Abdulkarim Darisi",
+            "number": 45,
+            "position": "M"
+          },
+          {
+            "name": "Fahad Al Hamad",
+            "number": 26,
+            "position": "D"
+          },
+          {
+            "name": "Abdulrahman Al Sanbi",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Ali Al Asmari",
+            "number": 40,
+            "position": "M"
+          },
+          {
+            "name": "Ayman Fallatah",
+            "number": 95,
+            "position": "M"
+          },
+          {
+            "name": "Bassam Al Hurayji",
+            "number": 6,
+            "position": "D"
+          },
+          {
+            "name": "Faisal Al Subiani",
+            "number": 65,
+            "position": "M"
+          }
+        ]
+      },
+      {
+        "team": "Al-Fayha",
+        "coach": "V. Rašović",
+        "formation": "3-4-3",
+        "starting_players": [
+          {
+            "name": "V. Stojković",
+            "number": 88,
+            "position": "G"
+          },
+          {
+            "name": "Yousef Haqawi",
+            "number": 12,
+            "position": "D"
+          },
+          {
+            "name": "Makhir Al Rashidi",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Hussain Al Shuwaysh",
+            "number": 33,
+            "position": "D"
+          },
+          {
+            "name": "Osama Al Khalaf",
+            "number": 80,
+            "position": "M"
+          },
+          {
+            "name": "Abdulrahman Al Safari",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "G. Cimirot",
+            "number": 13,
+            "position": "M"
+          },
+          {
+            "name": "G. Konan",
+            "number": 3,
+            "position": "M"
+          },
+          {
+            "name": "Sultan Mandash",
+            "number": 27,
+            "position": "F"
+          },
+          {
+            "name": "A. Nwakaeme",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Nawaf Al Harthi",
+            "number": 29,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Muhannad Al Qaydhi",
+            "number": 98,
+            "position": "D"
+          },
+          {
+            "name": "Rakan Kaabi",
+            "number": 66,
+            "position": "M"
+          },
+          {
+            "name": "Abdulrahman Al Anazi",
+            "number": 70,
+            "position": "M"
+          },
+          {
+            "name": "A. Sabiri",
+            "number": 77,
+            "position": "M"
+          },
+          {
+            "name": "Khalid Kaabi",
+            "number": 11,
+            "position": "M"
+          },
+          {
+            "name": "Satam Al Lehiyani",
+            "number": 45,
+            "position": "F"
+          },
+          {
+            "name": "Khaled Al Rammah",
+            "number": 75,
+            "position": "D"
+          },
+          {
+            "name": "Abdulraouf Al Duqayl",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Hussam Majrashi",
+            "number": 62,
+            "position": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al-Hazm",
+    "fixture_id": 1074537,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al-Hazm",
+    "away_team": "Abha",
+    "venue": "Ar-Rass Stadium",
+    "lineups": [
+      {
+        "team": "Al-Hazm",
+        "coach": "Saleh Al Mohammadi",
+        "formation": "4-4-2",
+        "starting_players": [
+          {
+            "name": "Ibrahim Zaid",
+            "number": 23,
+            "position": "G"
+          },
+          {
+            "name": "Ahmad Al Mhemaid",
+            "number": 99,
+            "position": "D"
+          },
+          {
+            "name": "Paulo Ricardo",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Fahad Al Obaid",
+            "number": 22,
+            "position": "D"
+          },
+          {
+            "name": "Majed Qasheesh",
+            "number": 27,
+            "position": "D"
+          },
+          {
+            "name": "Abdulaziz Al Harbi",
+            "number": 82,
+            "position": "M"
+          },
+          {
+            "name": "J. Moreno",
+            "number": 93,
+            "position": "M"
+          },
+          {
+            "name": "Tozé",
+            "number": 20,
+            "position": "M"
+          },
+          {
+            "name": "Nawaf Al Habashi",
+            "number": 19,
+            "position": "M"
+          },
+          {
+            "name": "F. Selemani",
+            "number": 10,
+            "position": "F"
+          },
+          {
+            "name": "M. Badamosi",
+            "number": 90,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Farhan Al Azzmi",
+            "number": 12,
+            "position": "D"
+          },
+          {
+            "name": "Mohammed Al Thani",
+            "number": 11,
+            "position": "F"
+          },
+          {
+            "name": "Ahmed Al Juwaid",
+            "number": 16,
+            "position": "M"
+          },
+          {
+            "name": "Rayan Al Sharekh",
+            "number": 85,
+            "position": "F"
+          },
+          {
+            "name": "Azzam Al Salman",
+            "number": 18,
+            "position": "F"
+          },
+          {
+            "name": "Mohammed Al Shaeri",
+            "number": 55,
+            "position": "M"
+          },
+          {
+            "name": "Majed Al Ghamdi",
+            "number": 33,
+            "position": "G"
+          },
+          {
+            "name": "Omar Al Ruwaili",
+            "number": 94,
+            "position": "F"
+          },
+          {
+            "name": "Ahmed Asiri",
+            "number": 25,
+            "position": "F"
+          }
+        ]
+      },
+      {
+        "team": "Abha",
+        "coach": "P. Mosimane",
+        "formation": "4-2-3-1",
+        "starting_players": [
+          {
+            "name": "C. Tătărușanu",
+            "number": 16,
+            "position": "G"
+          },
+          {
+            "name": "Abdulelah Al Shammry",
+            "number": 80,
+            "position": "D"
+          },
+          {
+            "name": "F. Noguera",
+            "number": 18,
+            "position": "D"
+          },
+          {
+            "name": "M. Tisserand",
+            "number": 26,
+            "position": "D"
+          },
+          {
+            "name": "Ibrahim Al Zubaidi",
+            "number": 15,
+            "position": "D"
+          },
+          {
+            "name": "Ziyad Al Sahafi",
+            "number": 30,
+            "position": "M"
+          },
+          {
+            "name": "U. Matić",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "Meshal Al Mutairi",
+            "number": 77,
+            "position": "M"
+          },
+          {
+            "name": "G. Krychowiak",
+            "number": 5,
+            "position": "M"
+          },
+          {
+            "name": "F. Kamano",
+            "number": 11,
+            "position": "M"
+          },
+          {
+            "name": "Hassan Al Ali",
+            "number": 9,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Ahmed Abdu",
+            "number": 71,
+            "position": null
+          },
+          {
+            "name": "S. Bguir",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Saleh Al Qumayzi",
+            "number": 17,
+            "position": "D"
+          },
+          {
+            "name": "L. Đorđević",
+            "number": 19,
+            "position": "F"
+          },
+          {
+            "name": "Mohammed Al Oufi",
+            "number": 24,
+            "position": "D"
+          },
+          {
+            "name": "Abdulrahman Al Bouq",
+            "number": 12,
+            "position": "G"
+          },
+          {
+            "name": "Mohammed Al Kunaydiri",
+            "number": 13,
+            "position": "D"
+          },
+          {
+            "name": "Saad Al Salouli",
+            "number": 88,
+            "position": "D"
+          },
+          {
+            "name": "Nasser Al Omran",
+            "number": 23,
+            "position": "M"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al Taee",
+    "fixture_id": 1074540,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Taee",
+    "away_team": "Al Akhdoud",
+    "venue": "Prince Abdul Aziz bin Musa'ed Stadium",
+    "lineups": [
+      {
+        "team": "Al Taee",
+        "coach": "L. Ramos",
+        "formation": "3-4-3",
+        "starting_players": [
+          {
+            "name": "Victor Braga",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Abdulaziz Majrashi",
+            "number": 3,
+            "position": "D"
+          },
+          {
+            "name": "Ibrahim Al Nakhli",
+            "number": 88,
+            "position": "D"
+          },
+          {
+            "name": "R. Bauer",
+            "number": 27,
+            "position": "D"
+          },
+          {
+            "name": "Tariq Abdullah",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "B. Mensah",
+            "number": 43,
+            "position": "M"
+          },
+          {
+            "name": "Alfa Semedo",
+            "number": 30,
+            "position": "M"
+          },
+          {
+            "name": "Safwan Saud",
+            "number": 80,
+            "position": "M"
+          },
+          {
+            "name": "Abdulfattah Asiri",
+            "number": 45,
+            "position": "F"
+          },
+          {
+            "name": "V. Misidjan",
+            "number": 10,
+            "position": "F"
+          },
+          {
+            "name": "A. Cordea",
+            "number": 11,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Adeeb Al Haizan",
+            "number": 90,
+            "position": "F"
+          },
+          {
+            "name": "Abdulrahman Al Harthi",
+            "number": 17,
+            "position": "M"
+          },
+          {
+            "name": "M. Dugandžić",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Salman Al Muwashar",
+            "number": 7,
+            "position": "M"
+          },
+          {
+            "name": "Jamal Bajandouh",
+            "number": 26,
+            "position": "M"
+          },
+          {
+            "name": "Abdulaziz Al Harabi",
+            "number": 6,
+            "position": "M"
+          },
+          {
+            "name": "Mansour Al Nakhli",
+            "number": 40,
+            "position": "F"
+          },
+          {
+            "name": "Moataz Al Baqawi",
+            "number": 44,
+            "position": "G"
+          },
+          {
+            "name": "Salem Al Toiawy",
+            "number": 13,
+            "position": "D"
+          }
+        ]
+      },
+      {
+        "team": "Al Akhdoud",
+        "coach": "N. Zekri",
+        "formation": "4-2-3-1",
+        "starting_players": [
+          {
+            "name": "Paulo Vítor",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Hussain Al Zabdani",
+            "number": 8,
+            "position": "D"
+          },
+          {
+            "name": "Naif Asiri",
+            "number": 15,
+            "position": "D"
+          },
+          {
+            "name": "Hassan Al Habib",
+            "number": 77,
+            "position": "D"
+          },
+          {
+            "name": "Awadh Khamis",
+            "number": 27,
+            "position": "D"
+          },
+          {
+            "name": "S. Pedroza",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Eid Al Muwallad",
+            "number": 6,
+            "position": "M"
+          },
+          {
+            "name": "Yaseen Al Zubaidi",
+            "number": 29,
+            "position": "M"
+          },
+          {
+            "name": "Álex Collado",
+            "number": 11,
+            "position": "M"
+          },
+          {
+            "name": "S. Godwin",
+            "number": 99,
+            "position": "M"
+          },
+          {
+            "name": "L. Tawamba",
+            "number": 9,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Mohammed Al Jahif",
+            "number": 21,
+            "position": "M"
+          },
+          {
+            "name": "Abdulrahman Al Rio",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Mourad Khodari",
+            "number": 24,
+            "position": "F"
+          },
+          {
+            "name": "Abdulaziz Al Hatila",
+            "number": 12,
+            "position": "M"
+          },
+          {
+            "name": "F. Tănase",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Ahmed Mostafa",
+            "number": 14,
+            "position": "M"
+          },
+          {
+            "name": "Saud Salem",
+            "number": 19,
+            "position": "M"
+          },
+          {
+            "name": "Saleh Al Harthi",
+            "number": 7,
+            "position": "M"
+          },
+          {
+            "name": "Saad Al Saleh",
+            "number": 30,
+            "position": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Damac",
+    "fixture_id": 1074542,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Damac",
+    "away_team": "Al-Raed",
+    "venue": "Dhamak Club Stadium",
+    "lineups": [
+      {
+        "team": "Damac",
+        "coach": "C. Contra",
+        "formation": "4-1-4-1",
+        "starting_players": [
+          {
+            "name": "Abdulbasit Hawsawi",
+            "number": 22,
+            "position": "D"
+          },
+          {
+            "name": "Sanousi Al Hawsawi",
+            "number": 21,
+            "position": "D"
+          },
+          {
+            "name": "Noor Al Rashidi",
+            "number": 4,
+            "position": "D"
+          },
+          {
+            "name": "F. Chafaï",
+            "number": 15,
+            "position": "D"
+          },
+          {
+            "name": "Dhari Al Anazi",
+            "number": 20,
+            "position": "D"
+          },
+          {
+            "name": "Bader Munshi",
+            "number": 16,
+            "position": "M"
+          },
+          {
+            "name": "Ahmed Harisi",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Tarek Hamed",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "G. Nkoudou",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Abdulaziz Makin",
+            "number": 12,
+            "position": "M"
+          },
+          {
+            "name": "Ramzi Solan",
+            "number": 51,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Abdulaziz Majrashi",
+            "number": 23,
+            "position": "M"
+          },
+          {
+            "name": "Abdullah Al Qahtani",
+            "number": 7,
+            "position": null
+          },
+          {
+            "name": "Abdulaziz Al Shahrani",
+            "number": 14,
+            "position": "M"
+          },
+          {
+            "name": "Sultan Faqihi",
+            "number": 41,
+            "position": "D"
+          },
+          {
+            "name": "Abdullah Al Hawsawi",
+            "number": 19,
+            "position": null
+          },
+          {
+            "name": "Hassan Al Shamrani",
+            "number": 40,
+            "position": "D"
+          },
+          {
+            "name": "Fahad Al Johani",
+            "number": 99,
+            "position": "F"
+          },
+          {
+            "name": "Abdulrahman Al Obaid",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Bandar Ali",
+            "number": 1,
+            "position": "G"
+          }
+        ]
+      },
+      {
+        "team": "Al-Raed",
+        "coach": "I. Jovičević",
+        "formation": "4-3-3",
+        "starting_players": [
+          {
+            "name": "Ahmad Al Harbi",
+            "number": 23,
+            "position": "G"
+          },
+          {
+            "name": "Mohammed Al Dossary",
+            "number": 32,
+            "position": "D"
+          },
+          {
+            "name": "O. Gonzalez",
+            "number": 21,
+            "position": "D"
+          },
+          {
+            "name": "M. Loum",
+            "number": 5,
+            "position": "D"
+          },
+          {
+            "name": "Hamad Al Jayzani",
+            "number": 28,
+            "position": "D"
+          },
+          {
+            "name": "Mansor Al Beshe",
+            "number": 14,
+            "position": "M"
+          },
+          {
+            "name": "Naif Hazazi",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "M. Normann",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "A. Sayoud",
+            "number": 7,
+            "position": "F"
+          },
+          {
+            "name": "Raed Al Ghamdi",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Feras Al Ghamdi",
+            "number": 49,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Ahmed Shami",
+            "number": 13,
+            "position": "M"
+          },
+          {
+            "name": "Rakan Al Dosari",
+            "number": 20,
+            "position": "F"
+          },
+          {
+            "name": "Nasser Al Hadhood",
+            "number": 55,
+            "position": "M"
+          },
+          {
+            "name": "Saud Al Dosari",
+            "number": 3,
+            "position": "F"
+          },
+          {
+            "name": "Nawaf Sahli",
+            "number": 41,
+            "position": "F"
+          },
+          {
+            "name": "Meshari Sunyur",
+            "number": 50,
+            "position": "G"
+          },
+          {
+            "name": "Mohammed Al Hazmi",
+            "number": 51,
+            "position": "F"
+          },
+          {
+            "name": "Bander Whaeshi",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Anas Al Zahrani",
+            "number": 42,
+            "position": "M"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al-Fayha",
+    "fixture_id": 1074544,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al-Ahli Jeddah",
+    "away_team": "Al-Fayha",
+    "venue": "Prince Abdullah al-Faisal Stadium",
+    "lineups": [
+      {
+        "team": "Al-Ahli Jeddah",
+        "coach": "M. Jaissle",
+        "formation": "4-2-3-1",
+        "starting_players": [
+          {
+            "name": "É. Mendy",
+            "number": 16,
+            "position": "G"
+          },
+          {
+            "name": "Rayan Hamed",
+            "number": 46,
+            "position": "D"
+          },
+          {
+            "name": "M. Demiral",
+            "number": 28,
+            "position": "D"
+          },
+          {
+            "name": "Ibañez",
+            "number": 3,
+            "position": "D"
+          },
+          {
+            "name": "Saad Yaslam",
+            "number": 31,
+            "position": "D"
+          },
+          {
+            "name": "F. Kessié",
+            "number": 79,
+            "position": "M"
+          },
+          {
+            "name": "Ziyad Al Johani",
+            "number": 30,
+            "position": "M"
+          },
+          {
+            "name": "Fahad Al Rashidi",
+            "number": 19,
+            "position": "M"
+          },
+          {
+            "name": "Roberto Firmino",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Sumayhan Al Nabit",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "Feras Al Brikan",
+            "number": 20,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Gabri Veiga",
+            "number": 24,
+            "position": "M"
+          },
+          {
+            "name": "Abdulkarim Darisi",
+            "number": 45,
+            "position": "M"
+          },
+          {
+            "name": "Fahad Al Hamad",
+            "number": 26,
+            "position": "D"
+          },
+          {
+            "name": "Abdulrahman Al Sanbi",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Ali Al Asmari",
+            "number": 40,
+            "position": "M"
+          },
+          {
+            "name": "Ayman Fallatah",
+            "number": 95,
+            "position": "M"
+          },
+          {
+            "name": "Bassam Al Hurayji",
+            "number": 6,
+            "position": "D"
+          },
+          {
+            "name": "Faisal Al Subiani",
+            "number": 65,
+            "position": "M"
+          }
+        ]
+      },
+      {
+        "team": "Al-Fayha",
+        "coach": "V. Rašović",
+        "formation": "3-4-3",
+        "starting_players": [
+          {
+            "name": "V. Stojković",
+            "number": 88,
+            "position": "G"
+          },
+          {
+            "name": "Yousef Haqawi",
+            "number": 12,
+            "position": "D"
+          },
+          {
+            "name": "Makhir Al Rashidi",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Hussain Al Shuwaysh",
+            "number": 33,
+            "position": "D"
+          },
+          {
+            "name": "Osama Al Khalaf",
+            "number": 80,
+            "position": "M"
+          },
+          {
+            "name": "Abdulrahman Al Safari",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "G. Cimirot",
+            "number": 13,
+            "position": "M"
+          },
+          {
+            "name": "G. Konan",
+            "number": 3,
+            "position": "M"
+          },
+          {
+            "name": "Sultan Mandash",
+            "number": 27,
+            "position": "F"
+          },
+          {
+            "name": "A. Nwakaeme",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Nawaf Al Harthi",
+            "number": 29,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Muhannad Al Qaydhi",
+            "number": 98,
+            "position": "D"
+          },
+          {
+            "name": "Rakan Kaabi",
+            "number": 66,
+            "position": "M"
+          },
+          {
+            "name": "Abdulrahman Al Anazi",
+            "number": 70,
+            "position": "M"
+          },
+          {
+            "name": "A. Sabiri",
+            "number": 77,
+            "position": "M"
+          },
+          {
+            "name": "Khalid Kaabi",
+            "number": 11,
+            "position": "M"
+          },
+          {
+            "name": "Satam Al Lehiyani",
+            "number": 45,
+            "position": "F"
+          },
+          {
+            "name": "Khaled Al Rammah",
+            "number": 75,
+            "position": "D"
+          },
+          {
+            "name": "Abdulraouf Al Duqayl",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Hussam Majrashi",
+            "number": 62,
+            "position": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al Khaleej Saihat",
+    "fixture_id": 1074541,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "lineups": [
+      {
+        "team": "Al Khaleej Saihat",
+        "coach": "Pedro Emanuel",
+        "formation": "4-4-2",
+        "starting_players": [
+          {
+            "name": "I. Šehić",
+            "number": 23,
+            "position": "G"
+          },
+          {
+            "name": "Saeed Al Hamsal",
+            "number": 39,
+            "position": "D"
+          },
+          {
+            "name": "Naif Masoud",
+            "number": 88,
+            "position": "D"
+          },
+          {
+            "name": "L. López",
+            "number": 4,
+            "position": "D"
+          },
+          {
+            "name": "Pedro Rebocho",
+            "number": 5,
+            "position": "D"
+          },
+          {
+            "name": "Mansour Hamzi",
+            "number": 15,
+            "position": "M"
+          },
+          {
+            "name": "Jung Woo-Young",
+            "number": 55,
+            "position": "M"
+          },
+          {
+            "name": "Ivo Rodrigues",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "Fábio Martins",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Mohamed Sherif",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Abdullah Al Salem",
+            "number": 11,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Arif Al Haydar",
+            "number": 25,
+            "position": "D"
+          },
+          {
+            "name": "Abdulelah Hawsawi",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Fawaz Al Terais",
+            "number": 27,
+            "position": "M"
+          },
+          {
+            "name": "Ali Al Shaafi",
+            "number": 14,
+            "position": "D"
+          },
+          {
+            "name": "Abdullah Al Shanqiti",
+            "number": 13,
+            "position": "D"
+          },
+          {
+            "name": "Marwan Al Haidari",
+            "number": 96,
+            "position": "G"
+          },
+          {
+            "name": "Bandar Nasser",
+            "number": 33,
+            "position": "D"
+          },
+          {
+            "name": "M. Adams",
+            "number": 47,
+            "position": "M"
+          },
+          {
+            "name": "Hamad Al Abdan",
+            "number": 99,
+            "position": "M"
+          }
+        ]
+      },
+      {
+        "team": "Al Riyadh",
+        "coach": "Odair Hellmann",
+        "formation": "4-4-2",
+        "starting_players": [
+          {
+            "name": "Abdurahman Al Shammari",
+            "number": 40,
+            "position": "G"
+          },
+          {
+            "name": "Hussain Al Nowaiqi",
+            "number": 27,
+            "position": "D"
+          },
+          {
+            "name": "Ahmad Asiri",
+            "number": 29,
+            "position": "D"
+          },
+          {
+            "name": "Mohammed Al Shwirekh",
+            "number": 4,
+            "position": "D"
+          },
+          {
+            "name": "Abdulelah Al Khaibari",
+            "number": 8,
+            "position": "D"
+          },
+          {
+            "name": "Yahia Al Shehri",
+            "number": 88,
+            "position": "M"
+          },
+          {
+            "name": "Fahad Al Rashidi",
+            "number": 80,
+            "position": "M"
+          },
+          {
+            "name": "B. Touré",
+            "number": 60,
+            "position": "M"
+          },
+          {
+            "name": "D. Ndong",
+            "number": 20,
+            "position": "M"
+          },
+          {
+            "name": "A. Gray",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Mohammed Al Aqel",
+            "number": 7,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "D. Arslanagić",
+            "number": 36,
+            "position": "D"
+          },
+          {
+            "name": "Ali Al Zaqan",
+            "number": 26,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Aqeel",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Rakan Najjar",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Saud Zaid Al Bawardi",
+            "number": 19,
+            "position": "D"
+          },
+          {
+            "name": "Mutaz Bin Hibah",
+            "number": 99,
+            "position": "M"
+          },
+          {
+            "name": "Abdullah Al Dosari",
+            "number": 12,
+            "position": "M"
+          },
+          {
+            "name": "Moayad Al Houti",
+            "number": 77,
+            "position": "M"
+          },
+          {
+            "name": "Bader Al Mutairi",
+            "number": 28,
+            "position": "M"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al-Fateh",
+    "fixture_id": 1074539,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Shabab",
+    "away_team": "Al-Fateh",
+    "venue": "Al-Shabab Club Stadium",
+    "lineups": [
+      {
+        "team": "Al Shabab",
+        "coach": "Saad Al Sabei",
+        "formation": "3-4-2-1",
+        "starting_players": [
+          {
+            "name": "Mustafa Malayekah",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Nader Al Sharari",
+            "number": 88,
+            "position": "D"
+          },
+          {
+            "name": "R. Saïss",
+            "number": 14,
+            "position": "D"
+          },
+          {
+            "name": "Moteb Al Harbi",
+            "number": 24,
+            "position": "D"
+          },
+          {
+            "name": "Hamad Al Yami",
+            "number": 2,
+            "position": null
+          },
+          {
+            "name": "G. Cuéllar",
+            "number": 6,
+            "position": "M"
+          },
+          {
+            "name": "I. Rakitić",
+            "number": 30,
+            "position": "M"
+          },
+          {
+            "name": "Hussain Al Sibyani",
+            "number": 16,
+            "position": "M"
+          },
+          {
+            "name": "Vitinho",
+            "number": 31,
+            "position": "F"
+          },
+          {
+            "name": "Y. Carrasco",
+            "number": 23,
+            "position": "F"
+          },
+          {
+            "name": "Abdullah Radif",
+            "number": 49,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Carlos Júnior",
+            "number": 13,
+            "position": "F"
+          },
+          {
+            "name": "Musab Al Juwayr",
+            "number": 55,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Issa",
+            "number": 19,
+            "position": "D"
+          },
+          {
+            "name": "Majed Kanabah",
+            "number": 12,
+            "position": "M"
+          },
+          {
+            "name": "Nasser Al Bishi",
+            "number": 28,
+            "position": "F"
+          },
+          {
+            "name": "Hussain Al Qahtani",
+            "number": 15,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Absi",
+            "number": 50,
+            "position": "G"
+          },
+          {
+            "name": "Nawaf Al Saadi",
+            "number": 21,
+            "position": "M"
+          },
+          {
+            "name": "Riyadh Sharahili",
+            "number": 26,
+            "position": "M"
+          }
+        ]
+      },
+      {
+        "team": "Al-Fateh",
+        "coach": "S. Bilić",
+        "formation": "4-2-3-1",
+        "starting_players": [
+          {
+            "name": "J. Rinne",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Ammar Al Dohaim",
+            "number": 24,
+            "position": "D"
+          },
+          {
+            "name": "J. Denayer",
+            "number": 64,
+            "position": "D"
+          },
+          {
+            "name": "M. Saâdane",
+            "number": 17,
+            "position": "D"
+          },
+          {
+            "name": "Fahad Al Harbi",
+            "number": 5,
+            "position": "D"
+          },
+          {
+            "name": "Mukhtar Ali",
+            "number": 7,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Fuhaid",
+            "number": 14,
+            "position": "M"
+          },
+          {
+            "name": "S. Bendebka",
+            "number": 28,
+            "position": "M"
+          },
+          {
+            "name": "L. Zelarayán",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Cristian Tello",
+            "number": 37,
+            "position": "M"
+          },
+          {
+            "name": "Djaniny",
+            "number": 21,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Ahmed Al Julaydan",
+            "number": 42,
+            "position": "D"
+          },
+          {
+            "name": "Saad Al Sharfa",
+            "number": 49,
+            "position": "F"
+          },
+          {
+            "name": "Othman Al Othman",
+            "number": 88,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Saeed",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Noah Al Mousa",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "Ali Al Zubaidi",
+            "number": 2,
+            "position": "D"
+          },
+          {
+            "name": "Qassem Lajami",
+            "number": 87,
+            "position": "D"
+          },
+          {
+            "name": "Abbas Al Hassan",
+            "number": 66,
+            "position": "M"
+          },
+          {
+            "name": "Waleed Al Anzi",
+            "number": 55,
+            "position": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al Taawon",
+    "fixture_id": 1074536,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Taawon",
+    "away_team": "Al-Ettifaq",
+    "venue": "Al Taawon Club Stadium",
+    "lineups": [
+      {
+        "team": "Al Taawon",
+        "coach": "Péricles Chamusca",
+        "formation": "4-3-3",
+        "starting_players": [
+          {
+            "name": "Mailson",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Abdulmalik Al Oyayari",
+            "number": 15,
+            "position": "D"
+          },
+          {
+            "name": "Awn Al Saluli",
+            "number": 93,
+            "position": "D"
+          },
+          {
+            "name": "Waleed Al Ahmad",
+            "number": 23,
+            "position": "D"
+          },
+          {
+            "name": "Ibrahim Al Shuayl",
+            "number": 26,
+            "position": "D"
+          },
+          {
+            "name": "C. Guanca",
+            "number": 19,
+            "position": "M"
+          },
+          {
+            "name": "A. El Mahdioui",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Ahmed Bahusayn",
+            "number": 29,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Kuwaykibi",
+            "number": 22,
+            "position": "F"
+          },
+          {
+            "name": "João Pedro",
+            "number": 30,
+            "position": "F"
+          },
+          {
+            "name": "M. Barrow",
+            "number": 99,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Nawaf Al Rashwodi",
+            "number": 20,
+            "position": "F"
+          },
+          {
+            "name": "R. Fourig",
+            "number": 66,
+            "position": "F"
+          },
+          {
+            "name": "Muath Faqeehi",
+            "number": 42,
+            "position": "D"
+          },
+          {
+            "name": "Abdulfattah Adam",
+            "number": 88,
+            "position": "F"
+          },
+          {
+            "name": "Mohammed Baker",
+            "number": 67,
+            "position": "M"
+          },
+          {
+            "name": "Ahmed Ashraf",
+            "number": 17,
+            "position": "M"
+          },
+          {
+            "name": "Sattam Al Roqi",
+            "number": 7,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Dhulayfi",
+            "number": 27,
+            "position": "G"
+          },
+          {
+            "name": "Fahad Al Abdulrazzaq",
+            "number": 11,
+            "position": "D"
+          }
+        ]
+      },
+      {
+        "team": "Al-Ettifaq",
+        "coach": "S. Gerrard",
+        "formation": "4-3-1-2",
+        "starting_players": [
+          {
+            "name": "Paulo Victor",
+            "number": 48,
+            "position": "G"
+          },
+          {
+            "name": "Mohammed Abdulrahman",
+            "number": 29,
+            "position": "D"
+          },
+          {
+            "name": "J. Hendry",
+            "number": 4,
+            "position": "D"
+          },
+          {
+            "name": "Abdullah Madu",
+            "number": 76,
+            "position": "D"
+          },
+          {
+            "name": "Radhi Al Otaibi",
+            "number": 61,
+            "position": "D"
+          },
+          {
+            "name": "S. Fofana",
+            "number": 75,
+            "position": "M"
+          },
+          {
+            "name": "Ali Abdullah Hazzazi",
+            "number": 11,
+            "position": "M"
+          },
+          {
+            "name": "G. Wijnaldum",
+            "number": 25,
+            "position": "M"
+          },
+          {
+            "name": "Álvaro Medrán",
+            "number": 14,
+            "position": "M"
+          },
+          {
+            "name": "K. Toko-Ekambi",
+            "number": 97,
+            "position": "F"
+          },
+          {
+            "name": "Haroune Camara",
+            "number": 90,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Thamer Al Khaibri",
+            "number": 20,
+            "position": "F"
+          },
+          {
+            "name": "Majed Dawran",
+            "number": 41,
+            "position": "M"
+          },
+          {
+            "name": "Abdullah Khateeb",
+            "number": 70,
+            "position": "D"
+          },
+          {
+            "name": "Hamdan Al Shamrani",
+            "number": 13,
+            "position": "D"
+          },
+          {
+            "name": "Amin Al Bukhari",
+            "number": 21,
+            "position": "G"
+          },
+          {
+            "name": "Mohammed Al Dosari",
+            "number": 3,
+            "position": null
+          },
+          {
+            "name": "Khalid Al Ghannam",
+            "number": 77,
+            "position": "F"
+          },
+          {
+            "name": "Muhannad Al Saad",
+            "number": 30,
+            "position": "M"
+          },
+          {
+            "name": "Hassan Al Musallam",
+            "number": 42,
+            "position": "M"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Al Riyadh",
+    "fixture_id": 1074541,
+    "date": "2024-05-27T18:00:00+00:00",
+    "home_team": "Al Khaleej Saihat",
+    "away_team": "Al Riyadh",
+    "venue": "Prince Mohamed bin Fahd Stadium",
+    "lineups": [
+      {
+        "team": "Al Khaleej Saihat",
+        "coach": "Pedro Emanuel",
+        "formation": "4-4-2",
+        "starting_players": [
+          {
+            "name": "I. Šehić",
+            "number": 23,
+            "position": "G"
+          },
+          {
+            "name": "Saeed Al Hamsal",
+            "number": 39,
+            "position": "D"
+          },
+          {
+            "name": "Naif Masoud",
+            "number": 88,
+            "position": "D"
+          },
+          {
+            "name": "L. López",
+            "number": 4,
+            "position": "D"
+          },
+          {
+            "name": "Pedro Rebocho",
+            "number": 5,
+            "position": "D"
+          },
+          {
+            "name": "Mansour Hamzi",
+            "number": 15,
+            "position": "M"
+          },
+          {
+            "name": "Jung Woo-Young",
+            "number": 55,
+            "position": "M"
+          },
+          {
+            "name": "Ivo Rodrigues",
+            "number": 8,
+            "position": "M"
+          },
+          {
+            "name": "Fábio Martins",
+            "number": 10,
+            "position": "M"
+          },
+          {
+            "name": "Mohamed Sherif",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Abdullah Al Salem",
+            "number": 11,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Arif Al Haydar",
+            "number": 25,
+            "position": "D"
+          },
+          {
+            "name": "Abdulelah Hawsawi",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Fawaz Al Terais",
+            "number": 27,
+            "position": "M"
+          },
+          {
+            "name": "Ali Al Shaafi",
+            "number": 14,
+            "position": "D"
+          },
+          {
+            "name": "Abdullah Al Shanqiti",
+            "number": 13,
+            "position": "D"
+          },
+          {
+            "name": "Marwan Al Haidari",
+            "number": 96,
+            "position": "G"
+          },
+          {
+            "name": "Bandar Nasser",
+            "number": 33,
+            "position": "D"
+          },
+          {
+            "name": "M. Adams",
+            "number": 47,
+            "position": "M"
+          },
+          {
+            "name": "Hamad Al Abdan",
+            "number": 99,
+            "position": "M"
+          }
+        ]
+      },
+      {
+        "team": "Al Riyadh",
+        "coach": "Odair Hellmann",
+        "formation": "4-4-2",
+        "starting_players": [
+          {
+            "name": "Abdurahman Al Shammari",
+            "number": 40,
+            "position": "G"
+          },
+          {
+            "name": "Hussain Al Nowaiqi",
+            "number": 27,
+            "position": "D"
+          },
+          {
+            "name": "Ahmad Asiri",
+            "number": 29,
+            "position": "D"
+          },
+          {
+            "name": "Mohammed Al Shwirekh",
+            "number": 4,
+            "position": "D"
+          },
+          {
+            "name": "Abdulelah Al Khaibari",
+            "number": 8,
+            "position": "D"
+          },
+          {
+            "name": "Yahia Al Shehri",
+            "number": 88,
+            "position": "M"
+          },
+          {
+            "name": "Fahad Al Rashidi",
+            "number": 80,
+            "position": "M"
+          },
+          {
+            "name": "B. Touré",
+            "number": 60,
+            "position": "M"
+          },
+          {
+            "name": "D. Ndong",
+            "number": 20,
+            "position": "M"
+          },
+          {
+            "name": "A. Gray",
+            "number": 9,
+            "position": "F"
+          },
+          {
+            "name": "Mohammed Al Aqel",
+            "number": 7,
+            "position": "F"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "D. Arslanagić",
+            "number": 36,
+            "position": "D"
+          },
+          {
+            "name": "Ali Al Zaqan",
+            "number": 26,
+            "position": "M"
+          },
+          {
+            "name": "Mohammed Al Aqeel",
+            "number": 18,
+            "position": "M"
+          },
+          {
+            "name": "Rakan Najjar",
+            "number": 1,
+            "position": "G"
+          },
+          {
+            "name": "Saud Zaid Al Bawardi",
+            "number": 19,
+            "position": "D"
+          },
+          {
+            "name": "Mutaz Bin Hibah",
+            "number": 99,
+            "position": "M"
+          },
+          {
+            "name": "Abdullah Al Dosari",
+            "number": 12,
+            "position": "M"
+          },
+          {
+            "name": "Moayad Al Houti",
+            "number": 77,
+            "position": "M"
+          },
+          {
+            "name": "Bader Al Mutairi",
+            "number": 28,
+            "position": "M"
+          }
+        ]
+      }
+    ]
+  }
+]

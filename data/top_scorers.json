@@ -1,0 +1,322 @@
+[
+  {
+    "player_name": {
+      "english": "Cristiano Ronaldo",
+      "arabic_saudi": "كريستيانو رونالدو"
+    },
+    "team": {
+      "english": "Al-Nassr",
+      "arabic_saudi": "النصر"
+    },
+    "nationality": "Portugal",
+    "age": 40,
+    "goals": 35,
+    "assists": 11,
+    "appearances": 31,
+    "minutes_played": 2649
+  },
+  {
+    "player_name": {
+      "english": "A. Mitrović",
+      "arabic_saudi": "أ. ميتروفيتش"
+    },
+    "team": {
+      "english": "Al-Hilal Saudi FC",
+      "arabic_saudi": "نادي الهلال السعودي"
+    },
+    "nationality": "Serbia",
+    "age": 31,
+    "goals": 28,
+    "assists": 5,
+    "appearances": 28,
+    "minutes_played": 2338
+  },
+  {
+    "player_name": {
+      "english": "F. Sakala",
+      "arabic_saudi": "فلكسون ساكالا"
+    },
+    "team": {
+      "english": "Al-Fayha",
+      "arabic_saudi": "الفيحاء"
+    },
+    "nationality": "Zambia",
+    "age": 28,
+    "goals": 19,
+    "assists": 6,
+    "appearances": 31,
+    "minutes_played": 2696
+  },
+  {
+    "player_name": {
+      "english": "A. Hamed Allah",
+      "arabic_saudi": "أ. حامد الله"
+    },
+    "team": {
+      "english": "Al-Ittihad FC",
+      "arabic_saudi": "الاتحاد السعودي الكروي"
+    },
+    "nationality": "Morocco",
+    "age": 35,
+    "goals": 19,
+    "assists": 3,
+    "appearances": 24,
+    "minutes_played": 1976
+  },
+  {
+    "player_name": {
+      "english": "Talisca",
+      "arabic_saudi": "تاليسكا"
+    },
+    "team": {
+      "english": "Al-Nassr",
+      "arabic_saudi": "النصر"
+    },
+    "nationality": "Brazil",
+    "age": 31,
+    "goals": 16,
+    "assists": 4,
+    "appearances": 17,
+    "minutes_played": 1436
+  },
+  {
+    "player_name": {
+      "english": "Malcom",
+      "arabic_saudi": "مالكوم"
+    },
+    "team": {
+      "english": "Al-Hilal Saudi FC",
+      "arabic_saudi": "نادي الهلال السعودي"
+    },
+    "nationality": "Brazil",
+    "age": 28,
+    "goals": 15,
+    "assists": 6,
+    "appearances": 31,
+    "minutes_played": 2661
+  },
+  {
+    "player_name": {
+      "english": "G. Nkoudou",
+      "arabic_saudi": "ج. نكودو"
+    },
+    "team": {
+      "english": "Damac",
+      "arabic_saudi": "دماك"
+    },
+    "nationality": "Cameroon",
+    "age": 30,
+    "goals": 15,
+    "assists": 5,
+    "appearances": 31,
+    "minutes_played": 2605
+  },
+  {
+    "player_name": {
+      "english": "O. Ighalo",
+      "arabic_saudi": "أو. إيغالو"
+    },
+    "team": {
+      "english": "Al Wehda Club",
+      "arabic_saudi": "نادي الوحدة"
+    },
+    "nationality": "Nigeria",
+    "age": 36,
+    "goals": 15,
+    "assists": 0,
+    "appearances": 31,
+    "minutes_played": 2635
+  },
+  {
+    "player_name": {
+      "english": "Salem Al Dawsari",
+      "arabic_saudi": "سالم الدوسري"
+    },
+    "team": {
+      "english": "Al-Hilal Saudi FC",
+      "arabic_saudi": "نادي الهلال السعودي"
+    },
+    "nationality": "Saudi Arabia",
+    "age": 34,
+    "goals": 14,
+    "assists": 4,
+    "appearances": 27,
+    "minutes_played": 2297
+  },
+  {
+    "player_name": {
+      "english": "B. Mensah",
+      "arabic_saudi": "ب. منصور"
+    },
+    "team": {
+      "english": "Al Taee",
+      "arabic_saudi": "الطائي"
+    },
+    "nationality": "Ghana",
+    "age": 31,
+    "goals": 14,
+    "assists": 2,
+    "appearances": 30,
+    "minutes_played": 2614
+  },
+  {
+    "player_name": {
+      "english": "Feras Al Brikan",
+      "arabic_saudi": "فراس البريكان"
+    },
+    "team": {
+      "english": "Al-Ahli Jeddah",
+      "arabic_saudi": "الأهلي جدة"
+    },
+    "nationality": "Saudi Arabia",
+    "age": 25,
+    "goals": 13,
+    "assists": 7,
+    "appearances": 27,
+    "minutes_played": 2091
+  },
+  {
+    "player_name": {
+      "english": "S. Mané",
+      "arabic_saudi": "ص. ماني"
+    },
+    "team": {
+      "english": "Al-Nassr",
+      "arabic_saudi": "النصر"
+    },
+    "nationality": "Senegal",
+    "age": 33,
+    "goals": 13,
+    "assists": 8,
+    "appearances": 32,
+    "minutes_played": 2679
+  },
+  {
+    "player_name": {
+      "english": "K. El Berkaoui",
+      "arabic_saudi": "كريم البركاوي"
+    },
+    "team": {
+      "english": "Al-Raed",
+      "arabic_saudi": "الرائد"
+    },
+    "nationality": "Morocco",
+    "age": 30,
+    "goals": 12,
+    "assists": 2,
+    "appearances": 30,
+    "minutes_played": 2269
+  },
+  {
+    "player_name": {
+      "english": "M. Dembélé",
+      "arabic_saudi": "م. ديمبيلي"
+    },
+    "team": {
+      "english": "Al-Ettifaq",
+      "arabic_saudi": "الاتفاق"
+    },
+    "nationality": "France",
+    "age": 29,
+    "goals": 12,
+    "assists": 1,
+    "appearances": 25,
+    "minutes_played": 1950
+  },
+  {
+    "player_name": {
+      "english": "S. Milinković-Savić",
+      "arabic_saudi": "س. ميلينكوفيتش-سافيتش"
+    },
+    "team": {
+      "english": "Al-Hilal Saudi FC",
+      "arabic_saudi": "نادي الهلال السعودي"
+    },
+    "nationality": "Serbia",
+    "age": 30,
+    "goals": 11,
+    "assists": 10,
+    "appearances": 30,
+    "minutes_played": 2448
+  },
+  {
+    "player_name": {
+      "english": "Cristian Tello",
+      "arabic_saudi": "كريستيان تيلو"
+    },
+    "team": {
+      "english": "Al-Fateh",
+      "arabic_saudi": "الفتح"
+    },
+    "nationality": "Spain",
+    "age": 34,
+    "goals": 11,
+    "assists": 3,
+    "appearances": 29,
+    "minutes_played": 2456
+  },
+  {
+    "player_name": {
+      "english": "João Pedro",
+      "arabic_saudi": "جواو بيدرو"
+    },
+    "team": {
+      "english": "Al Taawon",
+      "arabic_saudi": "التعاون"
+    },
+    "nationality": "Brazil",
+    "age": 32,
+    "goals": 11,
+    "assists": 1,
+    "appearances": 25,
+    "minutes_played": 2129
+  },
+  {
+    "player_name": {
+      "english": "R. Mahrez",
+      "arabic_saudi": "ر. محرز"
+    },
+    "team": {
+      "english": "Al-Ahli Jeddah",
+      "arabic_saudi": "الأهلي جدة"
+    },
+    "nationality": "Algeria",
+    "age": 34,
+    "goals": 11,
+    "assists": 13,
+    "appearances": 32,
+    "minutes_played": 2779
+  },
+  {
+    "player_name": {
+      "english": "Otávio",
+      "arabic_saudi": "أوتافيو"
+    },
+    "team": {
+      "english": "Al-Nassr",
+      "arabic_saudi": "النصر"
+    },
+    "nationality": "Portugal",
+    "age": 30,
+    "goals": 10,
+    "assists": 5,
+    "appearances": 29,
+    "minutes_played": 2424
+  },
+  {
+    "player_name": {
+      "english": "F. Kessié",
+      "arabic_saudi": "فرانك كيسي"
+    },
+    "team": {
+      "english": "Al-Ahli Jeddah",
+      "arabic_saudi": "الأهلي جدة"
+    },
+    "nationality": "Côte d'Ivoire",
+    "age": 29,
+    "goals": 10,
+    "assists": 4,
+    "appearances": 31,
+    "minutes_played": 2700
+  }
+]
