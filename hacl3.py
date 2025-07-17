@@ -24,27 +24,28 @@ from langchain_openai import ChatOpenAI
 from htmlTemplates import user_template, bot_template, css
 from agents.flags import NATIONALITY_FLAGS
 from agents.controlled_simulator import simulate_match_with_leaderboard, reset_match_state, display_leaderboard
+from agents.match_predictor import get_match_prediction, display_prediction_card
 import streamlit.components.v1 as components
 
 # WHITE BACKGROUND
-# st.markdown("""
-# <style>
-# /* Full app background */
-# body, .stApp {
-#     background-color: white !important;
-# }
+st.markdown("""
+<style>
+/* Full app background */
+body, .stApp {
+    background-color: white !important;
+}
 
-# /* Optional: Make sidebar white too */
-# [data-testid="stSidebar"] {
-#     background-color: white !important;
-# }
+/* Optional: Make sidebar white too */
+[data-testid="stSidebar"] {
+    background-color: white !important;
+}
 
-# /* Optional: Remove transparent overlay effects */
-# section.main > div {
-#     background-color: white !important;
-# }
-# </style>
-# """, unsafe_allow_html=True)
+/* Optional: Remove transparent overlay effects */
+section.main > div {
+    background-color: white !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 
@@ -989,7 +990,7 @@ st.markdown(f"""
    <div class="header-section left-section">
        <div>
    <div class="header-subtitle-large">Your Ultimate Destination for Saudi Professional Football</div>
-   <div class="header-subtitle-sub">Love the League. Live the Game.</div>
+   <div class="header-subtitle-sub">Don't just watch the league. Be apart of it.</div>
 </div>
    </div>
    <div class="header-section center-section">
@@ -2243,11 +2244,8 @@ with tabs[4]:  # Fixtures Tab
     
     # Enhanced fixtures data with more details
     fixtures = [
-        {"date": "2025-08-24", "time": "19:00", "home": "Al Hilal", "away": "Al Nassr", "venue": "Kingdom Arena", "matchday": 5, "status": "upcoming", "home_form": "WWDWL", "away_form": "WLWWW", "prediction": "Draw"},
-        {"date": "2025-08-25", "time": "20:00", "home": "Al Ittihad", "away": "Al Ahli", "venue": "King Abdullah Sports City", "matchday": 5, "status": "upcoming", "home_form": "LWWDW", "away_form": "WWLWL", "prediction": "Home Win"},
-        {"date": "2025-08-26", "time": "18:30", "home": "Al Ettifaq", "away": "Al Taawoun", "venue": "Prince Mohammed bin Fahd Stadium", "matchday": 5, "status": "upcoming", "home_form": "DLWWL", "away_form": "LLDWW", "prediction": "Home Win"},
-        {"date": "2025-08-27", "time": "20:00", "home": "Al Fayha", "away": "Al Shabab", "venue": "Al Majma'ah Stadium", "matchday": 5, "status": "upcoming", "home_form": "WLDLL", "away_form": "DWWLW", "prediction": "Away Win"},
-        {"date": "2025-08-28", "time": "21:00", "home": "Al Riyadh", "away": "Damac", "venue": "Prince Faisal bin Fahd Stadium", "matchday": 5, "status": "upcoming", "home_form": "LLWDL", "away_form": "WDLWL", "prediction": "Draw"},
+        {"date": "2025-08-27", "time": "20:00", "home": "Al Fayha", "away": "Al Shabab", "venue": "Al Majma'ah Stadium", "matchday": 5, "status": "upcoming", "home_form": "WLDLL", "away_form": "DWWLW", "prediction": ""},
+        {"date": "2025-08-28", "time": "21:00", "home": "Al Riyadh", "away": "Damac", "venue": "Prince Faisal bin Fahd Stadium", "matchday": 5, "status": "upcoming", "home_form": "LLWDL", "away_form": "WDLWL", "prediction": ""},
         # Recent results
         {"date": "2025-08-17", "time": "19:00", "home": "Al Nassr", "away": "Al Hilal", "venue": "Mrsool Park", "matchday": 4, "status": "completed", "home_score": 2, "away_score": 3, "home_form": "WLWWW", "away_form": "WWDWL"},
         {"date": "2025-08-18", "time": "20:30", "home": "Al Ahli", "away": "Al Ittihad", "venue": "King Abdullah Stadium", "matchday": 4, "status": "completed", "home_score": 1, "away_score": 1, "home_form": "WWLWL", "away_form": "LWWDW"},
@@ -2261,8 +2259,8 @@ with tabs[4]:  # Fixtures Tab
     fixtures_df = pd.DataFrame(fixtures)
     fixtures_df['date'] = pd.to_datetime(fixtures_df['date'])
     
-    # Filter and view controls
-    col1, col2, col3 = st.columns([2, 1, 1])
+    # Filter and view controls - ADD THE 4TH COLUMN FOR PREDICTIONS
+    col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
     
     with col1:
         view_filter = st.selectbox(
@@ -2287,6 +2285,10 @@ with tabs[4]:  # Fixtures Tab
             index=0,
             key="fixture_sort_option"
         )
+    
+    # NEW: Add AI predictions toggle
+    with col4:
+        show_ai_predictions = st.checkbox("🔮 AI Predictions", value=True, key="show_ai_predictions")
     
     # Apply filters
     filtered_fixtures = fixtures_df.copy()
@@ -2461,6 +2463,9 @@ with tabs[4]:  # Fixtures Tab
         </div>
         """.format(len(filtered_fixtures), upcoming_count, completed_count), unsafe_allow_html=True)
 
+        # Add AI predictions info banner
+        if show_ai_predictions and upcoming_count > 0:
+            st.info("🤖 AI Match Predictions powered by current league standings, team form, and key player analysis")
 
         st.markdown("---")
         
@@ -2485,7 +2490,7 @@ with tabs[4]:  # Fixtures Tab
             
             if fixture['status'] == 'upcoming':
                 # Upcoming fixture card
-                prediction_html = f'<span class="prediction-badge">🎯 {fixture["prediction"]}</span>' if 'prediction' in fixture and pd.notna(fixture['prediction']) else ''
+                prediction_html = f'<span class="prediction-badge">🎯 {fixture.get("prediction", "TBD")}</span>' if 'prediction' in fixture and pd.notna(fixture.get('prediction')) else ''
                 
                 home_form_html = create_form_html(fixture.get('home_form', ''))
                 away_form_html = create_form_html(fixture.get('away_form', ''))
@@ -2516,6 +2521,41 @@ with tabs[4]:  # Fixtures Tab
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
+                
+                # ENHANCED AI PREDICTION SECTION
+                if show_ai_predictions:
+                    with st.expander(f"🔮 Detailed AI Prediction: {fixture['home']} vs {fixture['away']}", expanded=False):
+                        with st.spinner("🤖 Analyzing teams and generating prediction..."):
+                            try:
+                                # Import the prediction function here to avoid circular imports
+                                from agents.match_predictor import get_match_prediction, display_prediction_card
+                                
+                                prediction = get_match_prediction(fixture['home'], fixture['away'])
+                                
+                                if prediction:
+                                    display_prediction_card(prediction)
+                                    
+                                    # Add user's team insight if applicable
+                                    user_fav_team = st.session_state.get("favorite_team", "")
+                                    if user_fav_team in [fixture['home'], fixture['away']]:
+                                        if prediction.get('predicted_result') == 'Home Win' and fixture['home'] == user_fav_team:
+                                            st.success(f"🎉 Great news for {user_fav_team} fans! The prediction favors your team!")
+                                        elif prediction.get('predicted_result') == 'Away Win' and fixture['away'] == user_fav_team:
+                                            st.success(f"🎉 Great news for {user_fav_team} fans! The prediction favors your team!")
+                                        elif prediction.get('predicted_result') == 'Draw':
+                                            st.info(f"🤝 A draw is predicted - {user_fav_team} will need to fight for all 3 points!")
+                                        else:
+                                            st.warning(f"⚠️ The prediction doesn't favor {user_fav_team}, but anything can happen in football!")
+                                else:
+                                    st.warning("⚠️ AI prediction temporarily unavailable")
+                                    
+                            except ImportError:
+                                st.error("🚫 Prediction system not available. Please ensure match_predictor.py is in the utils/ folder.")
+                            except Exception as e:
+                                st.error(f"Error generating prediction: {e}")
+                                # Fallback simple prediction based on existing data
+                                if 'prediction' in fixture and pd.notna(fixture.get('prediction')):
+                                    st.info(f"📊 Simple prediction based on current form: **{fixture['prediction']}**")
                 
             else:
                 # Completed fixture (result) card
@@ -2562,56 +2602,43 @@ with tabs[4]:  # Fixtures Tab
                         </div>
                     </div>
                     """, unsafe_allow_html=True)
-
-                # Determine result
-                if home_score > away_score:
-                    result_text = f"{fixture['home']} Won"
-                elif away_score > home_score:
-                    result_text = f"{fixture['away']} Won"
-                else:
-                    result_text = "Draw"
-                
-                home_form_html = create_form_html(fixture.get('home_form', ''))
-                away_form_html = create_form_html(fixture.get('away_form', ''))
-                
-                st.markdown(f"""
-                <div class="result-card">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                        <span class="matchday-badge">Matchday {fixture['matchday']}</span>
-                        <span class="prediction-badge">✅ {result_text}</span>
-                    </div>
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div style="flex: 1;">
-                            <h3 class="team-name">{fixture['home']}</h3>
-                            <div style="margin-top: 5px;">{home_form_html}</div>
-                        </div>
-                        <div style="text-align: center; padding: 0 20px;">
-                            <div class="score-display">{home_score} - {away_score}</div>
-                            <div style="font-size: 0.8rem; color: rgba(255,255,255,0.8);">FULL TIME</div>
-                        </div>
-                        <div style="flex: 1; text-align: right;">
-                            <h3 class="team-name">{fixture['away']}</h3>
-                            <div style="margin-top: 5px; text-align: right;">{away_form_html}</div>
-                        </div>
-                    </div>
-                    <div style="margin-top: 15px; text-align: center;">
-                        <p class="match-details">📍 {fixture['venue']}</p>
-                        <p class="match-details">📅 {fixture_date}</p>
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
     
     # Additional Information
     st.markdown("### ℹ️ Legend")
     
-    col_legend = st.columns(1)
+    col_legend1, col_legend2 = st.columns(2)
 
-    with col_legend[0]:
+    with col_legend1:
         st.markdown("""
         **Card Colors:**  
         - 🔵 **Blue** = Upcoming Fixture  
         - 🟢 **Green** = Completed Result  
+        
+        **Form Indicators:**  
+        - 🟢 **W** = Win  
+        - 🟡 **D** = Draw  
+        - 🔴 **L** = Loss  
         """)
+    
+    with col_legend2:
+        if show_ai_predictions:
+            st.markdown("""
+            **AI Predictions:**  
+            - Based on current league standings
+            - Team form and goal statistics  
+            - Key player analysis  
+            - Home advantage factors  
+            
+            *Click "Detailed AI Prediction" for in-depth analysis*
+            """)
+        else:
+            st.markdown("""
+            **Enable AI Predictions:**  
+            - Toggle "🔮 AI Predictions" above  
+            - Get detailed match analysis  
+            - View confidence scores  
+            - See key factors and players to watch  
+            """)
 
 # ================================================
 #   Fan Zone tab with 4 Subtabs
