@@ -43,28 +43,38 @@ st.markdown(
         height: 100%;
         margin: 0;
         padding: 0;
-        background: linear-gradient(135deg, #a100ff, #ff6ec4) !important;
-        background-attachment: fixed !important;
-        color: white !important;
+        background-color: #e5e5f7 !important;
+        opacity: 0.8;
+        background-image:
+            linear-gradient(135deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(225deg, #a100ff 25%, transparent 25%),
+            linear-gradient(315deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%) !important;
+        background-position:
+            -10px 0,
+            -10px 0,
+            0 0,
+            0 0 !important;
+        background-size: 20px 20px !important;
+        background-repeat: repeat !important;
+        color: #000000 !important;
     }
 
-    /* Optional: fix widget readability */
+    /* Optional: Improve widget styling for light background */
     .stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div {
-        background-color: #262730 !important;
-        color: white !important;
-        border: 1px solid #444 !important;
+        background-color: #ffffffcc !important;
+        color: #000000 !important;
+        border: 1px solid #a100ff !important;
     }
 
-    /* Optional: make headers white */
     h1, h2, h3, h4, h5, h6, .stMarkdown {
-        color: white !important;
+        color: #000000 !important;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
 
-)
 
 # # WHITE BACKGROUND
 # st.markdown("""
