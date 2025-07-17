@@ -29,13 +29,19 @@ import streamlit.components.v1 as components
 
 st.markdown("""
 <style>
-html, body, .stApp, .block-container, .main, [data-testid="stAppViewContainer"],
+html, body, .stApp, .main, .block-container,
+[data-testid="stAppViewContainer"],
 [data-testid="stSidebar"], [data-testid="stHeader"] {
     background-color: #0f1419 !important;
     color: white !important;
 }
+
+h1, h2, h3, h4, h5, h6, p, span, div {
+    color: white !important;
+}
 </style>
 """, unsafe_allow_html=True)
+
 
 # Page configuration
 st.set_page_config(
