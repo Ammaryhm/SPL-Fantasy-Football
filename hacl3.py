@@ -39,27 +39,31 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Force dark background */
-    body, .stApp {
-        background: linear-gradient(135deg, #a100ff, #ff6ec4);
-        background-attachment: fixed;
+    html, body, .stApp {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #a100ff, #ff6ec4) !important;
+        background-attachment: fixed !important;
         color: white !important;
     }
 
-    /* Fix widgets that may look too light on dark background */
+    /* Optional: fix widget readability */
     .stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div {
         background-color: #262730 !important;
-        color: #FAFAFA !important;
+        color: white !important;
         border: 1px solid #444 !important;
     }
 
-    /* Make titles and headers white */
-    h1, h2, h3, h4, h5, h6, .stMarkdown, .css-1v0mbdj {
-        color: #ffffff !important;
+    /* Optional: make headers white */
+    h1, h2, h3, h4, h5, h6, .stMarkdown {
+        color: white !important;
     }
     </style>
     """,
     unsafe_allow_html=True
+)
+
 )
 
 # # WHITE BACKGROUND
