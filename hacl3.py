@@ -36,8 +36,37 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown("""
+<style>
+/* Saudi Pro League themed background */
+.stApp {
+    background: linear-gradient(135deg, #006C35 0%, #FFFFFF 50%, #006C35 100%);
+    background-attachment: fixed;
+}
 
-st.markdown('<a id="top"></a>', unsafe_allow_html=True)
+.main .block-container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* Add some pattern overlay */
+.stApp::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: -1;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 # ✅ Force scroll to top on first render after Join SPL Hub
