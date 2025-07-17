@@ -57,15 +57,15 @@ st.set_page_config(
 )
 
 # Force scroll to top on first render after Join SPL Hub
-st.markdown("""
-<style>
-html, body, .stApp {
-    background-color: #ffffff !important;
-    color: #111 !important;
-    font-family: 'Inter', sans-serif;
-}
-</style>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <style>
+# html, body, .stApp {
+#     background-color: #ffffff !important;
+#     color: #111 !important;
+#     font-family: 'Inter', sans-serif;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 
 
@@ -87,31 +87,31 @@ if st.session_state.get("just_registered"):
     st.session_state.just_registered = False
 
 # Add this right after st.set_page_config()
-st.markdown("""
-<style>
-/* Global white background and scroll control */
-html, body, .stApp {
-    background-color: #ffffff !important;
-    color: #111 !important;
-    scroll-behavior: auto !important;
-}
+# st.markdown("""
+# <style>
+# /* Global white background and scroll control */
+# html, body, .stApp {
+#     background-color: #ffffff !important;
+#     color: #111 !important;
+#     scroll-behavior: auto !important;
+# }
 
-/* Sidebar background */
-[data-testid="stSidebar"] {
-    background-color: #f9f9f9 !important;
-}
+# /* Sidebar background */
+# [data-testid="stSidebar"] {
+#     background-color: #f9f9f9 !important;
+# }
 
-/* Main container background */
-.block-container {
-    background-color: #ffffff !important;
-}
+# /* Main container background */
+# .block-container {
+#     background-color: #ffffff !important;
+# }
 
-/* Prevent scroll jumping */
-.main > div {
-    scroll-behavior: auto !important;
-}
-</style>
-""", unsafe_allow_html=True)
+# /* Prevent scroll jumping */
+# .main > div {
+#     scroll-behavior: auto !important;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 
 def get_base64_of_bin_file(file_path):
