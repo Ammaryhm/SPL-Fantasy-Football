@@ -3,6 +3,7 @@ pandas
 numpy
 plotly
 pyyaml==6.0.1
+tabulate
 
 # Environment variables
 python-dotenv
