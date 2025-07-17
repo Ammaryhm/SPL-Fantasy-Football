@@ -29,53 +29,9 @@ import streamlit.components.v1 as components
 
 st.markdown("""
 <style>
-/* Global dark background */
-.main .block-container {
-    background: linear-gradient(135deg, #0f1419 0%, #1a1a2e 50%, #16213e 100%);
-    min-height: 100vh;
-    color: white;
-}
-
-/* Main app background */
-.stApp {
-    background: linear-gradient(135deg, #0f1419 0%, #1a1a2e 50%, #16213e 100%);
-}
-
-/* Sidebar background */
-.css-1d391kg {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-}
-
-/* Text color adjustments */
-.stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6 {
+html, body, .stApp {
+    background-color: #0f1419 !important;
     color: white !important;
-}
-
-/* Input field backgrounds */
-.stTextInput > div > div > input {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-/* Select box backgrounds */
-.stSelectbox > div > div > select {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-}
-
-/* Button styling */
-.stButton > button {
-    background: linear-gradient(135deg, #2365AE, #1A4C85);
-    color: white;
-    border: none;
-    border-radius: 8px;
-}
-
-/* Dataframe styling */
-.stDataFrame {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
 }
 </style>
 """, unsafe_allow_html=True)
