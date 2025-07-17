@@ -24,8 +24,29 @@ from langchain_openai import ChatOpenAI
 from htmlTemplates import user_template, bot_template, css
 from agents.flags import NATIONALITY_FLAGS
 from agents.controlled_simulator import simulate_match_with_leaderboard, reset_match_state, display_leaderboard
-from agents.match_predictor import get_match_prediction, display_prediction_card
 import streamlit.components.v1 as components
+
+# WHITE BACKGROUND
+# st.markdown("""
+# <style>
+# /* Full app background */
+# body, .stApp {
+#     background-color: white !important;
+# }
+
+# /* Optional: Make sidebar white too */
+# [data-testid="stSidebar"] {
+#     background-color: white !important;
+# }
+
+# /* Optional: Remove transparent overlay effects */
+# section.main > div {
+#     background-color: white !important;
+# }
+# </style>
+# """, unsafe_allow_html=True)
+
+
 
 # Page configuration
 st.set_page_config(
@@ -35,14 +56,18 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Force scroll to top on first render after Join SPL Hub
 st.markdown("""
 <style>
 html, body, .stApp {
-    background-color: #121212;
-    min-height: 100vh;
+    background-color: #ffffff !important;
+    color: #111 !important;
+    font-family: 'Inter', sans-serif;
 }
 </style>
 """, unsafe_allow_html=True)
+
+
 
 # ✅ Force scroll to top on first render after Join SPL Hub
 if st.session_state.get("just_registered"):
@@ -64,19 +89,30 @@ if st.session_state.get("just_registered"):
 # Add this right after st.set_page_config()
 st.markdown("""
 <style>
-/* Force page to stay at top */
-html, body {
+/* Global white background and scroll control */
+html, body, .stApp {
+    background-color: #ffffff !important;
+    color: #111 !important;
     scroll-behavior: auto !important;
 }
+
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background-color: #f9f9f9 !important;
+}
+
+/* Main container background */
+.block-container {
+    background-color: #ffffff !important;
+}
+
+/* Prevent scroll jumping */
 .main > div {
-    scroll-behavior: auto !important;
-}
-/* Prevent any automatic scrolling */
-* {
     scroll-behavior: auto !important;
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 def get_base64_of_bin_file(file_path):
     """
@@ -93,6 +129,245 @@ def get_base64_of_bin_file(file_path):
         st.error(f"Error reading image file: {e}")
         return None
 
+def set_background_image(image_path):
+    """
+    Function to set background image for white boxes/cards in Streamlit app
+    """
+    # Check if file exists
+    if not os.path.exists(image_path):
+        st.warning(f"Background image not found at: {image_path}")
+        return
+    
+    bin_str = get_base64_of_bin_file(image_path)
+    if bin_str is None:
+        return
+    
+    page_bg_img = f'''
+    <style>
+    /* Import Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    
+    /* Global Styles - Keep main background clean */
+    .stApp {{
+        font-family: 'Inter', sans-serif;
+        background-color: #f8fafc;
+    }}
+    
+    .main {{
+        font-family: 'Inter', sans-serif;
+        padding: 2rem;
+        margin: 1rem;
+    }}
+    
+    /* Header Styling - Image background on white boxes */
+    .header-container {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgba(30, 60, 114, 0.8);
+        padding: 2rem;
+        border-radius: 15px;
+        margin-bottom: 2rem;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }}
+    
+    .header-title {{
+        color: white;
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }}
+    
+    .header-subtitle {{
+        color: #e8f4fd;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }}
+    
+    /* Navigation Styling - Image background on nav boxes */
+    .nav-container {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        margin-bottom: 2rem;
+    }}
+    
+    /* Card Styling - Image background on white cards */
+    .metric-card {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        border-left: 4px solid #2a5298;
+        margin: 1rem 0;
+        transition: transform 0.3s ease;
+    }}
+    
+    .metric-card:hover {{
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }}
+    
+    .metric-title {{
+        color: #2a5298;
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+    }}
+    
+    .metric-value {{
+        color: #1a1a1a;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }}
+    
+    .metric-change {{
+        font-size: 0.85rem;
+        font-weight: 500;
+    }}
+    
+    .metric-positive {{
+        color: #10b981;
+    }}
+    
+    .metric-negative {{
+        color: #ef4444;
+    }}
+    
+    /* Fantasy Section Styling - Updated for image background */
+    .fantasy-container {{
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+        padding: 2rem;
+        border-radius: 15px;
+        color: white;
+        margin: 2rem 0;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }}
+    
+    .fantasy-title {{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }}
+    
+    /* Team Card Styling - Image background on white team cards */
+    .team-card {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        border: 1px solid rgba(229, 231, 235, 0.5);
+    }}
+    
+    .team-name {{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #1f2937;
+        margin-bottom: 0.5rem;
+    }}
+    
+    /* Button Styling - Enhanced for image background */
+    .stButton > button {{
+        background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 0.5rem 2rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }}
+    
+    .stButton > button:hover {{
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(42, 82, 152, 0.4);
+    }}
+    
+    /* Sidebar Styling - Image background on sidebar */
+    .css-1d391kg {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgba(248, 250, 252, 0.9);
+    }}
+    
+    /* Content containers with image background */
+    .block-container {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        padding: 2rem;
+        margin: 1rem 0;
+    }}
+    
+    /* Remove Streamlit branding */
+    #MainMenu {{visibility: hidden;}}
+    footer {{visibility: hidden;}}
+    header {{visibility: hidden;}}
+    
+    /* Ensure text readability on image background */
+    .stMarkdown, .stText {{
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+    }}
+    
+    /* Additional Streamlit components with image background */
+    .stSelectbox > div > div {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }}
+    
+    .stTextInput > div > div > input {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }}
+    
+    .stDataFrame {{
+        background-image: url("data:image/png;base64,{bin_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 1rem;
+    }}
+    </style>
+    '''
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+
+def get_flag(nationality):
+    return NATIONALITY_FLAGS.get(nationality, "🏳️")
+
+st.session_state.success_shown_time = time.time()
 
 # ================================================
 #  Data Loader
@@ -131,6 +406,7 @@ def load_teams_data():
         })
 
     return pd.DataFrame(teams)
+
 
 
 
@@ -240,6 +516,177 @@ if not st.session_state.get("user_registered", False):
     }
 
     team_names = list(team_config.keys())  # Will contain only ['Al-Nassr']
+
+
+    # ========== PROFESSIONAL CSS STYLING ==========
+    st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    /* Main layout */
+    .main-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    /* Card */
+    .registration-card {
+        background: #101820;
+        border-radius: 24px;
+        padding: 0;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #007236;
+    }
+
+    .registration-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: linear-gradient(90deg, #007236, #ffd700, #007236);
+    }
+
+    /* Header */
+    .header-section {
+        background: rgba(0, 114, 54, 0.2);
+        backdrop-filter: blur(8px);
+        padding: 3rem 2rem 2rem;
+        text-align: center;
+        border-bottom: 1px solid #ffd700;
+    }
+
+    .main-title {
+        font-size: 2.6rem;
+        font-weight: 700;
+        background: linear-gradient(90deg, #ffd700, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.025em;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        color: #dddddd;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    /* Form section */
+    .form-section {
+        background: rgba(0, 114, 54, 0.15);
+        padding: 2.5rem;
+        border-top: 2px solid #ffd700;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 2rem;
+    }
+
+    .form-label {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #dddddd;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    /* Team preview */
+    .team-preview {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background: #222c22;
+        border: 2px solid #007236;
+        border-radius: 12px;
+        margin-top: 0.5rem;
+        transition: all 0.2s ease;
+    }
+
+    .team-preview:hover {
+        border-color: #ffd700;
+        box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+    }
+
+    .team-logo-small {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        border: 2px solid #444;
+    }
+
+    .team-name {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    /* Inputs */
+    .stTextInput > div > div > input {
+        background: #1f2b1f !important;
+        border: 2px solid #007236 !important;
+        border-radius: 8px !important;
+        color: #ffffff !important;
+        font-size: 1rem !important;
+        padding: 0.75rem 1rem !important;
+        transition: all 0.2s ease !important;
+        font-weight: 500 !important;
+    }
+
+    .stTextInput > div > div > input:focus {
+        border-color: #ffd700 !important;
+        box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.2) !important;
+        outline: none !important;
+    }
+
+    .stSelectbox > div > div > div {
+        background: #1f2b1f !important;
+        border: 2px solid #007236 !important;
+        border-radius: 8px !important;
+        color: #ffffff !important;
+        font-weight: 500 !important;
+    }
+
+    /* Button */
+    .stButton > button {
+        background: linear-gradient(135deg, #007236, #ffd700) !important;
+        color: black !important;
+        border: none !important;
+        padding: 1rem 2rem !important;
+        font-size: 1rem !important;
+        font-weight: 700 !important;
+        border-radius: 12px !important;
+        cursor: pointer !important;
+        width: 100% !important;
+        transition: all 0.2s ease !important;
+        box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3) !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+        height: 52px !important;
+    }
+
+    .stButton > button:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4) !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+
 
     # ========== PROFESSIONAL UI LAYOUT ==========
     st.markdown('<div class="main-container">', unsafe_allow_html=True)
@@ -563,7 +1010,7 @@ st.markdown(f"""
    <div class="header-section left-section">
        <div>
    <div class="header-subtitle-large">Your Ultimate Destination for Saudi Professional Football</div>
-   <div class="header-subtitle-sub">Don't just watch the league. Be apart of it.</div>
+   <div class="header-subtitle-sub">Love the League. Live the Game.</div>
 </div>
    </div>
    <div class="header-section center-section">
@@ -1817,8 +2264,11 @@ with tabs[4]:  # Fixtures Tab
     
     # Enhanced fixtures data with more details
     fixtures = [
-        {"date": "2025-08-27", "time": "20:00", "home": "Al Fayha", "away": "Al Shabab", "venue": "Al Majma'ah Stadium", "matchday": 5, "status": "upcoming", "home_form": "WLDLL", "away_form": "DWWLW", "prediction": ""},
-        {"date": "2025-08-28", "time": "21:00", "home": "Al Riyadh", "away": "Damac", "venue": "Prince Faisal bin Fahd Stadium", "matchday": 5, "status": "upcoming", "home_form": "LLWDL", "away_form": "WDLWL", "prediction": ""},
+        {"date": "2025-08-24", "time": "19:00", "home": "Al Hilal", "away": "Al Nassr", "venue": "Kingdom Arena", "matchday": 5, "status": "upcoming", "home_form": "WWDWL", "away_form": "WLWWW", "prediction": "Draw"},
+        {"date": "2025-08-25", "time": "20:00", "home": "Al Ittihad", "away": "Al Ahli", "venue": "King Abdullah Sports City", "matchday": 5, "status": "upcoming", "home_form": "LWWDW", "away_form": "WWLWL", "prediction": "Home Win"},
+        {"date": "2025-08-26", "time": "18:30", "home": "Al Ettifaq", "away": "Al Taawoun", "venue": "Prince Mohammed bin Fahd Stadium", "matchday": 5, "status": "upcoming", "home_form": "DLWWL", "away_form": "LLDWW", "prediction": "Home Win"},
+        {"date": "2025-08-27", "time": "20:00", "home": "Al Fayha", "away": "Al Shabab", "venue": "Al Majma'ah Stadium", "matchday": 5, "status": "upcoming", "home_form": "WLDLL", "away_form": "DWWLW", "prediction": "Away Win"},
+        {"date": "2025-08-28", "time": "21:00", "home": "Al Riyadh", "away": "Damac", "venue": "Prince Faisal bin Fahd Stadium", "matchday": 5, "status": "upcoming", "home_form": "LLWDL", "away_form": "WDLWL", "prediction": "Draw"},
         # Recent results
         {"date": "2025-08-17", "time": "19:00", "home": "Al Nassr", "away": "Al Hilal", "venue": "Mrsool Park", "matchday": 4, "status": "completed", "home_score": 2, "away_score": 3, "home_form": "WLWWW", "away_form": "WWDWL"},
         {"date": "2025-08-18", "time": "20:30", "home": "Al Ahli", "away": "Al Ittihad", "venue": "King Abdullah Stadium", "matchday": 4, "status": "completed", "home_score": 1, "away_score": 1, "home_form": "WWLWL", "away_form": "LWWDW"},
@@ -1832,8 +2282,8 @@ with tabs[4]:  # Fixtures Tab
     fixtures_df = pd.DataFrame(fixtures)
     fixtures_df['date'] = pd.to_datetime(fixtures_df['date'])
     
-    # Filter and view controls - ADD THE 4TH COLUMN FOR PREDICTIONS
-    col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+    # Filter and view controls
+    col1, col2, col3 = st.columns([2, 1, 1])
     
     with col1:
         view_filter = st.selectbox(
@@ -1858,10 +2308,6 @@ with tabs[4]:  # Fixtures Tab
             index=0,
             key="fixture_sort_option"
         )
-    
-    # NEW: Add AI predictions toggle
-    with col4:
-        show_ai_predictions = st.checkbox("🔮 AI Predictions", value=True, key="show_ai_predictions")
     
     # Apply filters
     filtered_fixtures = fixtures_df.copy()
@@ -2036,9 +2482,6 @@ with tabs[4]:  # Fixtures Tab
         </div>
         """.format(len(filtered_fixtures), upcoming_count, completed_count), unsafe_allow_html=True)
 
-        # Add AI predictions info banner
-        if show_ai_predictions and upcoming_count > 0:
-            st.info("🤖 AI Match Predictions powered by current league standings, team form, and key player analysis")
 
         st.markdown("---")
         
@@ -2063,7 +2506,7 @@ with tabs[4]:  # Fixtures Tab
             
             if fixture['status'] == 'upcoming':
                 # Upcoming fixture card
-                prediction_html = f'<span class="prediction-badge">🎯 {fixture.get("prediction", "TBD")}</span>' if 'prediction' in fixture and pd.notna(fixture.get('prediction')) else ''
+                prediction_html = f'<span class="prediction-badge">🎯 {fixture["prediction"]}</span>' if 'prediction' in fixture and pd.notna(fixture['prediction']) else ''
                 
                 home_form_html = create_form_html(fixture.get('home_form', ''))
                 away_form_html = create_form_html(fixture.get('away_form', ''))
@@ -2094,41 +2537,6 @@ with tabs[4]:  # Fixtures Tab
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
-                
-                # ENHANCED AI PREDICTION SECTION
-                if show_ai_predictions:
-                    with st.expander(f"🔮 Detailed AI Prediction: {fixture['home']} vs {fixture['away']}", expanded=False):
-                        with st.spinner("🤖 Analyzing teams and generating prediction..."):
-                            try:
-                                # Import the prediction function here to avoid circular imports
-                                from agents.match_predictor import get_match_prediction, display_prediction_card
-                                
-                                prediction = get_match_prediction(fixture['home'], fixture['away'])
-                                
-                                if prediction:
-                                    display_prediction_card(prediction)
-                                    
-                                    # Add user's team insight if applicable
-                                    user_fav_team = st.session_state.get("favorite_team", "")
-                                    if user_fav_team in [fixture['home'], fixture['away']]:
-                                        if prediction.get('predicted_result') == 'Home Win' and fixture['home'] == user_fav_team:
-                                            st.success(f"🎉 Great news for {user_fav_team} fans! The prediction favors your team!")
-                                        elif prediction.get('predicted_result') == 'Away Win' and fixture['away'] == user_fav_team:
-                                            st.success(f"🎉 Great news for {user_fav_team} fans! The prediction favors your team!")
-                                        elif prediction.get('predicted_result') == 'Draw':
-                                            st.info(f"🤝 A draw is predicted - {user_fav_team} will need to fight for all 3 points!")
-                                        else:
-                                            st.warning(f"⚠️ The prediction doesn't favor {user_fav_team}, but anything can happen in football!")
-                                else:
-                                    st.warning("⚠️ AI prediction temporarily unavailable")
-                                    
-                            except ImportError:
-                                st.error("🚫 Prediction system not available. Please ensure match_predictor.py is in the utils/ folder.")
-                            except Exception as e:
-                                st.error(f"Error generating prediction: {e}")
-                                # Fallback simple prediction based on existing data
-                                if 'prediction' in fixture and pd.notna(fixture.get('prediction')):
-                                    st.info(f"📊 Simple prediction based on current form: **{fixture['prediction']}**")
                 
             else:
                 # Completed fixture (result) card
@@ -2175,43 +2583,56 @@ with tabs[4]:  # Fixtures Tab
                         </div>
                     </div>
                     """, unsafe_allow_html=True)
+
+                # Determine result
+                if home_score > away_score:
+                    result_text = f"{fixture['home']} Won"
+                elif away_score > home_score:
+                    result_text = f"{fixture['away']} Won"
+                else:
+                    result_text = "Draw"
+                
+                home_form_html = create_form_html(fixture.get('home_form', ''))
+                away_form_html = create_form_html(fixture.get('away_form', ''))
+                
+                st.markdown(f"""
+                <div class="result-card">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <span class="matchday-badge">Matchday {fixture['matchday']}</span>
+                        <span class="prediction-badge">✅ {result_text}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="flex: 1;">
+                            <h3 class="team-name">{fixture['home']}</h3>
+                            <div style="margin-top: 5px;">{home_form_html}</div>
+                        </div>
+                        <div style="text-align: center; padding: 0 20px;">
+                            <div class="score-display">{home_score} - {away_score}</div>
+                            <div style="font-size: 0.8rem; color: rgba(255,255,255,0.8);">FULL TIME</div>
+                        </div>
+                        <div style="flex: 1; text-align: right;">
+                            <h3 class="team-name">{fixture['away']}</h3>
+                            <div style="margin-top: 5px; text-align: right;">{away_form_html}</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px; text-align: center;">
+                        <p class="match-details">📍 {fixture['venue']}</p>
+                        <p class="match-details">📅 {fixture_date}</p>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
     
     # Additional Information
     st.markdown("### ℹ️ Legend")
     
-    col_legend1, col_legend2 = st.columns(2)
+    col_legend = st.columns(1)
 
-    with col_legend1:
+    with col_legend[0]:
         st.markdown("""
         **Card Colors:**  
         - 🔵 **Blue** = Upcoming Fixture  
         - 🟢 **Green** = Completed Result  
-        
-        **Form Indicators:**  
-        - 🟢 **W** = Win  
-        - 🟡 **D** = Draw  
-        - 🔴 **L** = Loss  
         """)
-    
-    with col_legend2:
-        if show_ai_predictions:
-            st.markdown("""
-            **AI Predictions:**  
-            - Based on current league standings
-            - Team form and goal statistics  
-            - Key player analysis  
-            - Home advantage factors  
-            
-            *Click "Detailed AI Prediction" for in-depth analysis*
-            """)
-        else:
-            st.markdown("""
-            **Enable AI Predictions:**  
-            - Toggle "🔮 AI Predictions" above  
-            - Get detailed match analysis  
-            - View confidence scores  
-            - See key factors and players to watch  
-            """)
 
 # ================================================
 #   Fan Zone tab with 4 Subtabs
