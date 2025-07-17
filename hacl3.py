@@ -2649,31 +2649,108 @@ with tabs[5]:  # 🧑‍🤝‍🧑 Fan Zone Tab
     fan_tabs = st.tabs(["🖼️ Fan Avatar", "🔊 Chant Maker", "🧠 SPL Trivia"])
 
 
-    # === Tab 1: Fan Avatar Generator ===
-    with fan_tabs[0]:
-        from utils.img2img_utils import setup_image_pipeline
-        from utils.prompt_templates import IMAGE_GENERATION_PROMPT, NEGATIVE_PROMPT
-        from PIL import Image
-        import torch
-        import numpy as np
-
-        st.subheader("Share your SPL avatar with your friends!")
-        pipe = setup_image_pipeline()
-        uploaded_file = st.file_uploader("Upload your image here (PNG or JPG)", type=["png", "jpg", "jpeg"])
-        prompt_suffix = st.text_input("Saudi Pro League Fan Prompt", value="Saudi Pro League jersey")
-
-        if uploaded_file:
-            try:
-                initial_image = Image.open(uploaded_file).convert("RGB").resize((512, 512))
+# === Tab 1: Fan Avatar Generator ===
+with fan_tabs[0]:
+    from utils.img2img_utils import setup_image_pipeline, generate_image_from_image, process_uploaded_image, get_generation_tips
+    from utils.prompt_templates import IMAGE_GENERATION_PROMPT, NEGATIVE_PROMPT
+    from PIL import Image
+    import io
+    import logging
+    
+    logger = logging.getLogger(__name__)
+    
+    st.subheader("Share your SPL avatar with your friends!")
+    
+    # Setup the pipeline
+    pipe_config = setup_image_pipeline()
+    
+    # Show generation tips
+    with st.expander("💡 Tips for better results", expanded=False):
+        st.markdown(get_generation_tips())
+    
+    # File uploader
+    uploaded_file = st.file_uploader("Upload your image here (PNG or JPG)", type=["png", "jpg", "jpeg"])
+    
+    # Prompt input
+    prompt_suffix = st.text_input("Saudi Pro League Fan Prompt", value="Saudi Pro League jersey")
+    
+    if uploaded_file:
+        try:
+            # Process the uploaded image
+            initial_image = process_uploaded_image(uploaded_file, max_size=512)
+            
+            if initial_image:
                 st.image(initial_image, caption="Your Uploaded Character Image", use_container_width=True)
-                if st.button("Generate Your Avatar"):
-                    full_prompt = IMAGE_GENERATION_PROMPT.format(prompt_suffix=prompt_suffix)
-                    output = pipe(prompt=full_prompt, image=initial_image, negative_prompt=NEGATIVE_PROMPT, output_type="pil")
-                    generated_image = output[0]
-                    st.success("Image generated successfully!")
-                    st.image(generated_image, caption="Generated SPL Avatar", use_container_width=True)
-            except Exception as e:
-                st.error(f"Error: {e}")
+                
+                # Generation button
+                if st.button("Generate Your Avatar", type="primary"):
+                    with st.spinner("🎨 Creating your SPL avatar..."):
+                        try:
+                            # Create full prompt
+                            full_prompt = IMAGE_GENERATION_PROMPT.format(prompt_suffix=prompt_suffix)
+                            
+                            # Generate the image
+                            generated_image = generate_image_from_image(
+                                pipe_config, 
+                                prompt=full_prompt,
+                                init_image=initial_image,
+                                strength=0.75,
+                                guidance_scale=7.5,
+                                num_inference_steps=20
+                            )
+                            
+                            if generated_image:
+                                st.success("🎉 Image generated successfully!")
+                                st.image(generated_image, caption="Generated SPL Avatar", use_container_width=True)
+                                
+                                # Add download button
+                                img_buffer = io.BytesIO()
+                                generated_image.save(img_buffer, format="PNG")
+                                img_buffer.seek(0)
+                                
+                                st.download_button(
+                                    label="📥 Download Your Avatar",
+                                    data=img_buffer,
+                                    file_name="spl_avatar.png",
+                                    mime="image/png"
+                                )
+                            else:
+                                st.error("❌ Failed to generate image. Please try again with a different prompt.")
+                                
+                        except Exception as e:
+                            st.error(f"❌ Generation error: {str(e)}")
+                            logger.error(f"Avatar generation error: {e}")
+            else:
+                st.error("❌ Failed to process uploaded image. Please try another image.")
+                
+        except Exception as e:
+            st.error(f"❌ Error processing image: {str(e)}")
+            logger.error(f"Image processing error: {e}")
+    
+    else:
+        st.info("👆 Please upload an image to get started!")
+        
+        # Show example of what the app can do
+        st.markdown("### 🌟 What this app can do:")
+        st.markdown("""
+        - 🤖 **AI Generation**: Uses Hugging Face or OpenAI APIs for realistic transformations
+        - ✨ **Image Effects**: Applies artistic filters when APIs aren't available
+        - 🎨 **Team Themes**: Transforms your photo into SPL fan avatars
+        - 📱 **Easy Sharing**: Download your avatar to share with friends
+        """)
+        
+        # Show API status
+        if pipe_config:
+            st.markdown("### 🔧 Available Methods:")
+            if pipe_config.get("huggingface_available"):
+                st.success("✅ Hugging Face API - Ready for AI generation")
+            if pipe_config.get("openai_available"):
+                st.success("✅ OpenAI DALL-E API - Ready for AI generation")
+            if pipe_config.get("fallback_effects"):
+                st.info("✅ Image Effects - Always available as fallback")
+            
+            if not pipe_config.get("huggingface_available") and not pipe_config.get("openai_available"):
+                st.warning("⚠️ No API keys configured - will use image effects only")
 
     # === Tab 3: Chant Generator ===
     with fan_tabs[1]:
