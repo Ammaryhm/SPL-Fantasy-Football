@@ -36,26 +36,43 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown(
+    """
+    <style>
+    body {
+        background: linear-gradient(135deg, #a100ff, #ff6ec4);
+        background-attachment: fixed;
+    }
 
-# WHITE BACKGROUND
-st.markdown("""
-<style>
-/* Full app background */
-body, .stApp {
-    background-color: white !important;
-}
+    .stApp {
+        background: linear-gradient(135deg, #a100ff, #ff6ec4);
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-/* Optional: Make sidebar white too */
-[data-testid="stSidebar"] {
-    background-color: white !important;
-}
 
-/* Optional: Remove transparent overlay effects */
-section.main > div {
-    background-color: white !important;
-}
-</style>
-""", unsafe_allow_html=True)
+# # WHITE BACKGROUND
+# st.markdown("""
+# <style>
+# /* Full app background */
+# body, .stApp {
+#     background-color: white !important;
+# }
+
+# /* Optional: Make sidebar white too */
+# [data-testid="stSidebar"] {
+#     background-color: white !important;
+# }
+
+# /* Optional: Remove transparent overlay effects */
+# section.main > div {
+#     background-color: white !important;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 
 
