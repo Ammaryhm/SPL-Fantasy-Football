@@ -20,20 +20,38 @@ def setup_image_pipeline():
     logger.info("Attempting to load image generation model (via st.cache_resource)...")
 
     try:
-        # Determine device (MPS for Apple Silicon, else CPU)
-        device = "mps" if torch.backends.mps.is_available() else "cpu"
+        # Determine device (CUDA if available, else CPU or MPS)
+        if torch.cuda.is_available():
+            device = "cuda"
+        elif torch.backends.mps.is_available():
+            device = "mps"
+        else:
+            device = "cpu"
         logger.info(f"Using device: {device}")
 
-        # Always use float16 and low_cpu_mem_usage to reduce RAM footprint
+        # Load with low‑memory settings and half precision
         pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
             MODEL_ID,
-            torch_dtype=torch.float16,
+            revision="fp16",               # load the fp16 weights if available
+            torch_dtype=torch.float16,     # half‑precision everywhere
             use_safetensors=True,
-            low_cpu_mem_usage=True,
-            token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
+            low_cpu_mem_usage=True,        # shards weights to reduce peak RAM
+            use_auth_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
         )
 
+        # Reduce runtime memory further
+        pipe.enable_attention_slicing()   # slice attention computation to save memory
+
+        # If you have accelerate installed, you can offload parts to CPU
+        try:
+            pipe.enable_sequential_cpu_offload()
+        except Exception:
+            # if accelerate isn't available, just skip
+            pass
+
+        # Move model to the target device
         pipe.to(device)
+
         logger.info("Stable Diffusion pipeline loaded successfully and cached.")
         return pipe
 
@@ -43,6 +61,3 @@ def setup_image_pipeline():
         st.error("An error occurred during model loading. Please check the terminal for details.")
         traceback.print_exc()
         return None
-
-
- 
