@@ -27,6 +27,16 @@ from agents.controlled_simulator import simulate_match_with_leaderboard, reset_m
 from agents.match_predictor import get_match_prediction, display_prediction_card
 import streamlit.components.v1 as components
 
+
+# Page configuration
+st.set_page_config(
+    page_title="Saudi Pro League Hub",
+    page_icon="⚽",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+
 # WHITE BACKGROUND
 st.markdown("""
 <style>
@@ -49,13 +59,6 @@ section.main > div {
 
 
 
-# Page configuration
-st.set_page_config(
-    page_title="Saudi Pro League Hub",
-    page_icon="⚽",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 st.markdown('<a id="top"></a>', unsafe_allow_html=True)
 
