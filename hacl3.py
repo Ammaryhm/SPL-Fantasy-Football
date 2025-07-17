@@ -27,17 +27,6 @@ from agents.controlled_simulator import simulate_match_with_leaderboard, reset_m
 from agents.match_predictor import get_match_prediction, display_prediction_card
 import streamlit.components.v1 as components
 
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-html, body, .stApp, .main, .block-container {
-    font-family: 'Inter', sans-serif !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
-
 # Page configuration
 st.set_page_config(
     page_title="Saudi Pro League Hub",
@@ -45,6 +34,15 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+st.markdown("""
+<style>
+html, body, .stApp {
+    background-color: #121212;
+    min-height: 100vh;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ✅ Force scroll to top on first render after Join SPL Hub
 if st.session_state.get("just_registered"):
