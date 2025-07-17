@@ -36,23 +36,56 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-components.html(
+st.markdown(
     """
     <style>
-    body, .stApp {
-        background: #e5e5f7;
-        opacity: 0.8;
-        background: 
-            linear-gradient(135deg, #a100ff55 25%, transparent 25%) -10px 0/ 20px 20px,
-            linear-gradient(225deg, #a100ff 25%, transparent 25%) -10px 0/ 20px 20px,
-            linear-gradient(315deg, #a100ff55 25%, transparent 25%) 0px 0/ 20px 20px,
-            linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
-        background-attachment: fixed;
+    html, body, .stApp {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        /* Use either the pattern OR the image background, not both */
+        background-color: #e5e5f7 !important;
+        background-image:
+            linear-gradient(135deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(225deg, #a100ff 25%, transparent 25%),
+            linear-gradient(315deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%) !important;
+        background-position:
+            -10px 0,
+            -10px 0,
+            0 0,
+            0 0 !important;
+        background-size: 20px 20px !important;
+        background-repeat: repeat !important;
+        background-attachment: fixed !important;
+        color: #000000 !important;
+    }
+
+    /* Widget styling */
+    .stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div {
+        background-color: #ffffffcc !important;
+        color: #000000 !important;
+        border: 1px solid #a100ff !important;
+    }
+
+    h1, h2, h3, h4, h5, h6, .stMarkdown {
+        color: #000000 !important;
+    }
+
+    /* Ensure the pattern appears on all containers */
+    .main > div {
+        background: transparent !important;
+    }
+    
+    /* Remove conflicting backgrounds */
+    section[data-testid="stSidebar"] {
+        background: rgba(255, 255, 255, 0.1) !important;
     }
     </style>
     """,
-    height=0
+    unsafe_allow_html=True
 )
+
 
 # # WHITE BACKGROUND
 # st.markdown("""
@@ -129,175 +162,175 @@ def get_base64_of_bin_file(file_path):
         st.error(f"Error reading image file: {e}")
         return None
 
-def set_background_image(image_path):
-    """
-    Function to set Accenture-purple gradient background and image overlays for cards/containers
-    """
-    if not os.path.exists(image_path):
-        st.warning(f"Background image not found at: {image_path}")
-        return
+# def set_background_image(image_path):
+#     """
+#     Function to set Accenture-purple gradient background and image overlays for cards/containers
+#     """
+#     if not os.path.exists(image_path):
+#         st.warning(f"Background image not found at: {image_path}")
+#         return
 
-    bin_str = get_base64_of_bin_file(image_path)
-    if bin_str is None:
-        return
+#     bin_str = get_base64_of_bin_file(image_path)
+#     if bin_str is None:
+#         return
 
-    page_bg_img = f'''
-    <style>
-    /* Import Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+#     page_bg_img = f'''
+#     <style>
+#     /* Import Google Fonts */
+#     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-    /* Global Background - Accenture Purple Gradient Pattern */
-    .stApp {{
-        font-family: 'Inter', sans-serif;
-        background-color: #e5e5f7 !important;
-        background-image:
-            linear-gradient(135deg, #a100ff55 25%, transparent 25%),
-            linear-gradient(225deg, #a100ff 25%, transparent 25%),
-            linear-gradient(315deg, #a100ff55 25%, transparent 25%),
-            linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%);
-        background-size: 20px 20px;
-        background-repeat: repeat;
-        background-attachment: fixed;
-    }}
+#     /* Global Background - Accenture Purple Gradient Pattern */
+#     .stApp {{
+#         font-family: 'Inter', sans-serif;
+#         background-color: #e5e5f7 !important;
+#         background-image:
+#             linear-gradient(135deg, #a100ff55 25%, transparent 25%),
+#             linear-gradient(225deg, #a100ff 25%, transparent 25%),
+#             linear-gradient(315deg, #a100ff55 25%, transparent 25%),
+#             linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%);
+#         background-size: 20px 20px;
+#         background-repeat: repeat;
+#         background-attachment: fixed;
+#     }}
 
-    /* Header Styling - Image background on white boxes */
-    .header-container {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: overlay;
-        background-color: rgba(30, 60, 114, 0.8);
-        padding: 2rem;
-        border-radius: 15px;
-        margin-bottom: 2rem;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    }}
+#     /* Header Styling - Image background on white boxes */
+#     .header-container {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         background-blend-mode: overlay;
+#         background-color: rgba(30, 60, 114, 0.8);
+#         padding: 2rem;
+#         border-radius: 15px;
+#         margin-bottom: 2rem;
+#         box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+#     }}
 
-    .header-title {{
-        color: white;
-        font-size: 3rem;
-        font-weight: 700;
-        text-align: center;
-        margin-bottom: 0.5rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    }}
+#     .header-title {{
+#         color: white;
+#         font-size: 3rem;
+#         font-weight: 700;
+#         text-align: center;
+#         margin-bottom: 0.5rem;
+#         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+#     }}
 
-    .header-subtitle {{
-        color: #e8f4fd;
-        font-size: 1.2rem;
-        text-align: center;
-        font-weight: 300;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-    }}
+#     .header-subtitle {{
+#         color: #e8f4fd;
+#         font-size: 1.2rem;
+#         text-align: center;
+#         font-weight: 300;
+#         text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+#     }}
 
-    /* Keep rest of styles unchanged (cards, nav, etc.) */
-    .nav-container {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 1rem 2rem;
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        margin-bottom: 2rem;
-    }}
+#     /* Keep rest of styles unchanged (cards, nav, etc.) */
+#     .nav-container {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         padding: 1rem 2rem;
+#         border-radius: 10px;
+#         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+#         margin-bottom: 2rem;
+#     }}
 
-    .metric-card {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 1.5rem;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        border-left: 4px solid #2a5298;
-        margin: 1rem 0;
-        transition: transform 0.3s ease;
-    }}
+#     .metric-card {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         padding: 1.5rem;
+#         border-radius: 12px;
+#         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+#         border-left: 4px solid #2a5298;
+#         margin: 1rem 0;
+#         transition: transform 0.3s ease;
+#     }}
 
-    .metric-card:hover {{
-        transform: translateY(-2px);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.25);
-    }}
+#     .metric-card:hover {{
+#         transform: translateY(-2px);
+#         box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+#     }}
 
-    .fantasy-container {{
-        background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9));
-        padding: 2rem;
-        border-radius: 15px;
-        color: white;
-        margin: 2rem 0;
-        backdrop-filter: blur(10px);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-    }}
+#     .fantasy-container {{
+#         background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9));
+#         padding: 2rem;
+#         border-radius: 15px;
+#         color: white;
+#         margin: 2rem 0;
+#         backdrop-filter: blur(10px);
+#         box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+#     }}
 
-    .team-card {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 12px;
-        padding: 1.5rem;
-        margin: 1rem 0;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        border: 1px solid rgba(229, 231, 235, 0.5);
-    }}
+#     .team-card {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         border-radius: 12px;
+#         padding: 1.5rem;
+#         margin: 1rem 0;
+#         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+#         border: 1px solid rgba(229, 231, 235, 0.5);
+#     }}
 
-    .stButton > button {{
-        background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
-        color: white;
-        border: none;
-        border-radius: 8px;
-        padding: 0.5rem 2rem;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }}
+#     .stButton > button {{
+#         background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+#         color: white;
+#         border: none;
+#         border-radius: 8px;
+#         padding: 0.5rem 2rem;
+#         font-weight: 600;
+#         transition: all 0.3s ease;
+#         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+#     }}
 
-    .stButton > button:hover {{
-        transform: translateY(-1px);
-        box-shadow: 0 6px 16px rgba(42, 82, 152, 0.4);
-    }}
+#     .stButton > button:hover {{
+#         transform: translateY(-1px);
+#         box-shadow: 0 6px 16px rgba(42, 82, 152, 0.4);
+#     }}
 
-    .css-1d391kg {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: overlay;
-        background-color: rgba(248, 250, 252, 0.9);
-    }}
+#     .css-1d391kg {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         background-blend-mode: overlay;
+#         background-color: rgba(248, 250, 252, 0.9);
+#     }}
 
-    .block-container {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 15px;
-        padding: 2rem;
-        margin: 1rem 0;
-    }}
+#     .block-container {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         border-radius: 15px;
+#         padding: 2rem;
+#         margin: 1rem 0;
+#     }}
 
-    #MainMenu {{visibility: hidden;}}
-    footer {{visibility: hidden;}}
-    header {{visibility: hidden;}}
+#     #MainMenu {{visibility: hidden;}}
+#     footer {{visibility: hidden;}}
+#     header {{visibility: hidden;}}
 
-    .stMarkdown, .stText {{
-        text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
-    }}
+#     .stMarkdown, .stText {{
+#         text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+#     }}
 
-    .stSelectbox > div > div,
-    .stTextInput > div > div > input,
-    .stDataFrame {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px;
-    }}
-    </style>
-    '''
-    st.markdown(page_bg_img, unsafe_allow_html=True)
+#     .stSelectbox > div > div,
+#     .stTextInput > div > div > input,
+#     .stDataFrame {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: cover;
+#         background-position: center;
+#         background-repeat: no-repeat;
+#         border-radius: 10px;
+#     }}
+#     </style>
+#     '''
+#     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # ================================================
 #  Data Loader
