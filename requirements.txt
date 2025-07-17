@@ -28,5 +28,4 @@ tornado
 # diffuser
 diffusers
 
-transformers
 accelerate
