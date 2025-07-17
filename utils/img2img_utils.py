@@ -24,33 +24,25 @@ def setup_image_pipeline():
         device = "mps" if torch.backends.mps.is_available() else "cpu"
         logger.info(f"Using device: {device}")
 
-        if device == "mps":
-
-            pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
-                MODEL_ID,
-                torch_dtype=torch.float16,
-                use_safetensors=True,
-                token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
-            )
-
-        else: # CPU
-            pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
-                MODEL_ID,
-                torch_dtype=torch.float32,
-                use_safetensors=True,
-                token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
-            )
+        # Always use float16 and low_cpu_mem_usage to reduce RAM footprint
+        pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
+            MODEL_ID,
+            torch_dtype=torch.float16,
+            use_safetensors=True,
+            low_cpu_mem_usage=True,
+            token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
+        )
 
         pipe.to(device)
         logger.info("Stable Diffusion pipeline loaded successfully and cached.")
         return pipe
 
     except Exception as e:
-
         logger.error(f"Failed to load image generation pipeline: {e}")
         import traceback
         st.error("An error occurred during model loading. Please check the terminal for details.")
         traceback.print_exc()
         return None
+
 
  
