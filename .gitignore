@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+# API keys and secrets
+*.key
+*.pem
+*.crt
+*.secret
+
+# Streamlit or Flask temporary files
+.streamlit/
+.instance/
+*.pid
+*.log
+
+# Pytest, coverage, profiling
+.cache/
+.pytest_cache/
+coverage.*
+*.cover
+*.py,cover
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS system files
+.DS_Store
+
+# Node.js (if using JS frontend)
+node_modules/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# JSON data exports / temp data
+data/*.json
+*.csv
+*.db
+*.sqlite3
+*.bak
+*.tmp
+
+# VS Code settings (optional)
+.vscode/settings.json
+
+# Docker / deployment
+docker-compose.override.yml
+*.tar
