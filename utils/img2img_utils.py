@@ -1,14 +1,23 @@
 import os
 import streamlit as st
 import torch
-from diffusers import StableDiffusionImg2ImgPipeline
-from PIL import Image
 import logging
+from PIL import Image
+
+# Try to import diffusers with error handling
+try:
+    from diffusers import StableDiffusionImg2ImgPipeline
+    DIFFUSERS_AVAILABLE = True
+except ImportError as e:
+    st.error(f"Failed to import diffusers: {e}")
+    st.error("Please check your requirements.txt for compatible versions of diffusers and huggingface_hub")
+    DIFFUSERS_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
-# Model configuration
-MODEL_ID = "runwayml/stable-diffusion-v1-5"  # Or whatever model you're using
+# Model configuration - using a model with safetensors support
+MODEL_ID = "stabilityai/stable-diffusion-2-1"  # This model has safetensors support
+# Alternative: "runwayml/stable-diffusion-v1-5" with use_safetensors=False
 
 def get_huggingface_token():
     """
@@ -24,6 +33,10 @@ def setup_image_pipeline():
     """
     Set up the Stable Diffusion img2img pipeline with proper error handling
     """
+    if not DIFFUSERS_AVAILABLE:
+        st.error("Diffusers library not available. Please check your requirements.txt")
+        return None
+        
     try:
         logger.info("Setting up Stable Diffusion img2img pipeline...")
         
