@@ -29,15 +29,10 @@ import streamlit.components.v1 as components
 
 st.markdown("""
 <style>
-html, body, .stApp, .main, .block-container,
-[data-testid="stAppViewContainer"],
-[data-testid="stSidebar"], [data-testid="stHeader"] {
-    background-color: #0f1419 !important;
-    color: white !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-h1, h2, h3, h4, h5, h6, p, span, div {
-    color: white !important;
+html, body, .stApp, .main, .block-container {
+    font-family: 'Inter', sans-serif !important;
 }
 </style>
 """, unsafe_allow_html=True)
