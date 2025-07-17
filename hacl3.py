@@ -36,14 +36,18 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Replace your CSS section (lines 35-75) with this enhanced version:
+
 st.markdown(
     """
     <style>
-    html, body, .stApp {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        /* Use either the pattern OR the image background, not both */
+    /* Import Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    
+    /* Force background on ALL elements */
+    html, body, .stApp, .main, .block-container, [data-testid="stAppViewContainer"], 
+    [data-testid="stHeader"], .main .block-container {
+        font-family: 'Inter', sans-serif !important;
         background-color: #e5e5f7 !important;
         background-image:
             linear-gradient(135deg, #a100ff55 25%, transparent 25%),
@@ -59,32 +63,215 @@ st.markdown(
         background-repeat: repeat !important;
         background-attachment: fixed !important;
         color: #000000 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        min-height: 100vh !important;
     }
-
-    /* Widget styling */
-    .stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div {
-        background-color: #ffffffcc !important;
-        color: #000000 !important;
-        border: 1px solid #a100ff !important;
+    
+    /* Ensure main content area has background */
+    .main > div:first-child {
+        background: transparent !important;
+        padding: 1rem !important;
     }
-
-    h1, h2, h3, h4, h5, h6, .stMarkdown {
-        color: #000000 !important;
-    }
-
-    /* Ensure the pattern appears on all containers */
-    .main > div {
+    
+    /* Remove any white/conflicting backgrounds */
+    .stApp > div, .main, section.main > div, .block-container {
         background: transparent !important;
     }
     
-    /* Remove conflicting backgrounds */
+    /* Sidebar styling */
     section[data-testid="stSidebar"] {
         background: rgba(255, 255, 255, 0.1) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    
+    section[data-testid="stSidebar"] > div {
+        background: transparent !important;
+    }
+    
+    /* Widget styling with better contrast */
+    .stButton>button, .stTextInput>div>input, .stTextArea>div>textarea, .stSelectbox>div {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        color: #000000 !important;
+        border: 1px solid #a100ff !important;
+        border-radius: 8px !important;
+    }
+    
+    .stButton>button:hover {
+        background-color: rgba(255, 255, 255, 1) !important;
+        transform: translateY(-1px) !important;
+    }
+    
+    /* Text elements */
+    h1, h2, h3, h4, h5, h6, .stMarkdown, .stText, p, div {
+        color: #000000 !important;
+    }
+    
+    /* Tab styling to ensure visibility */
+    .stTabs [data-baseweb="tab-list"] {
+        background: rgba(255, 255, 255, 0.2) !important;
+        backdrop-filter: blur(10px) !important;
+        border-radius: 12px !important;
+    }
+    
+    /* Cards and containers */
+    .stContainer, .stColumns, .stColumn {
+        background: transparent !important;
+    }
+    
+    /* Dataframe styling */
+    .stDataFrame {
+        background: rgba(255, 255, 255, 0.9) !important;
+        border-radius: 10px !important;
+    }
+    
+    /* Expander styling */
+    .stExpander {
+        background: rgba(255, 255, 255, 0.1) !important;
+        border-radius: 10px !important;
+    }
+    
+    /* Metrics styling */
+    .stMetric {
+        background: rgba(255, 255, 255, 0.1) !important;
+        border-radius: 10px !important;
+        padding: 1rem !important;
+    }
+    
+    /* Remove default Streamlit padding/margins that might interfere */
+    .css-1d391kg, .css-1v0mbdj {
+        background: transparent !important;
+    }
+    
+    /* Force the pattern to show on page load */
+    .stApp::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #e5e5f7;
+        background-image:
+            linear-gradient(135deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(225deg, #a100ff 25%, transparent 25%),
+            linear-gradient(315deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%);
+        background-size: 20px 20px;
+        background-repeat: repeat;
+        z-index: -1;
+    }
+    
+    /* Registration form specific styles */
+    .main-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .registration-card {
+        background: #101820;
+        border-radius: 24px;
+        padding: 0;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #007236;
+    }
+
+    .registration-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: linear-gradient(90deg, #007236, #ffd700, #007236);
+    }
+
+    .header-section {
+        background: rgba(0, 114, 54, 0.2);
+        backdrop-filter: blur(8px);
+        padding: 3rem 2rem 2rem;
+        text-align: center;
+        border-bottom: 1px solid #ffd700;
+    }
+
+    .main-title {
+        font-size: 2.6rem;
+        font-weight: 700;
+        background: linear-gradient(90deg, #ffd700, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.025em;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        color: #dddddd;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    .form-section {
+        background: rgba(0, 114, 54, 0.15);
+        padding: 2.5rem;
+        border-top: 2px solid #ffd700;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 2rem;
+    }
+
+    .form-label {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #dddddd;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .team-preview {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background: #222c22;
+        border: 2px solid #007236;
+        border-radius: 12px;
+        margin-top: 0.5rem;
+        transition: all 0.2s ease;
+    }
+
+    .team-preview:hover {
+        border-color: #ffd700;
+        box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+    }
+
+    .team-logo-small {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        border: 2px solid #444;
+    }
+
+    .team-name {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #ffffff;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
+# REMOVE the duplicate CSS block from inside the registration if statement (lines 405-495)
+# Just keep the registration form logic but remove the st.markdown with the duplicate CSS
 
 
 # # WHITE BACKGROUND
