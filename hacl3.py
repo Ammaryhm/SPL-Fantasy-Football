@@ -153,34 +153,35 @@ def get_base64_of_bin_file(file_path):
 
 def set_background_image(image_path):
     """
-    Function to set background image for white boxes/cards in Streamlit app
+    Function to set Accenture-purple gradient background and image overlays for cards/containers
     """
-    # Check if file exists
     if not os.path.exists(image_path):
         st.warning(f"Background image not found at: {image_path}")
         return
-    
+
     bin_str = get_base64_of_bin_file(image_path)
     if bin_str is None:
         return
-    
+
     page_bg_img = f'''
     <style>
     /* Import Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    
-    /* Global Styles - Keep main background clean */
+
+    /* Global Background - Accenture Purple Gradient Pattern */
     .stApp {{
         font-family: 'Inter', sans-serif;
-        background-color: #f8fafc;
+        background-color: #e5e5f7 !important;
+        background-image:
+            linear-gradient(135deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(225deg, #a100ff 25%, transparent 25%),
+            linear-gradient(315deg, #a100ff55 25%, transparent 25%),
+            linear-gradient(45deg, #a100ff 25%, #e5e5f7 25%);
+        background-size: 20px 20px;
+        background-repeat: repeat;
+        background-attachment: fixed;
     }}
-    
-    .main {{
-        font-family: 'Inter', sans-serif;
-        padding: 2rem;
-        margin: 1rem;
-    }}
-    
+
     /* Header Styling - Image background on white boxes */
     .header-container {{
         background-image: url("data:image/png;base64,{bin_str}");
@@ -194,7 +195,7 @@ def set_background_image(image_path):
         margin-bottom: 2rem;
         box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     }}
-    
+
     .header-title {{
         color: white;
         font-size: 3rem;
@@ -203,7 +204,7 @@ def set_background_image(image_path):
         margin-bottom: 0.5rem;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }}
-    
+
     .header-subtitle {{
         color: #e8f4fd;
         font-size: 1.2rem;
@@ -211,8 +212,8 @@ def set_background_image(image_path):
         font-weight: 300;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }}
-    
-    /* Navigation Styling - Image background on nav boxes */
+
+    /* Keep rest of styles unchanged (cards, nav, etc.) */
     .nav-container {{
         background-image: url("data:image/png;base64,{bin_str}");
         background-size: cover;
@@ -223,8 +224,7 @@ def set_background_image(image_path):
         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         margin-bottom: 2rem;
     }}
-    
-    /* Card Styling - Image background on white cards */
+
     .metric-card {{
         background-image: url("data:image/png;base64,{bin_str}");
         background-size: cover;
@@ -237,44 +237,14 @@ def set_background_image(image_path):
         margin: 1rem 0;
         transition: transform 0.3s ease;
     }}
-    
+
     .metric-card:hover {{
         transform: translateY(-2px);
         box-shadow: 0 8px 25px rgba(0,0,0,0.25);
     }}
-    
-    .metric-title {{
-        color: #2a5298;
-        font-size: 0.9rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        margin-bottom: 0.5rem;
-    }}
-    
-    .metric-value {{
-        color: #1a1a1a;
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-    }}
-    
-    .metric-change {{
-        font-size: 0.85rem;
-        font-weight: 500;
-    }}
-    
-    .metric-positive {{
-        color: #10b981;
-    }}
-    
-    .metric-negative {{
-        color: #ef4444;
-    }}
-    
-    /* Fantasy Section Styling - Updated for image background */
+
     .fantasy-container {{
-        background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9));
         padding: 2rem;
         border-radius: 15px;
         color: white;
@@ -282,16 +252,7 @@ def set_background_image(image_path):
         backdrop-filter: blur(10px);
         box-shadow: 0 8px 25px rgba(0,0,0,0.2);
     }}
-    
-    .fantasy-title {{
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    }}
-    
-    /* Team Card Styling - Image background on white team cards */
+
     .team-card {{
         background-image: url("data:image/png;base64,{bin_str}");
         background-size: cover;
@@ -303,15 +264,7 @@ def set_background_image(image_path):
         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         border: 1px solid rgba(229, 231, 235, 0.5);
     }}
-    
-    .team-name {{
-        font-size: 1.3rem;
-        font-weight: 600;
-        color: #1f2937;
-        margin-bottom: 0.5rem;
-    }}
-    
-    /* Button Styling - Enhanced for image background */
+
     .stButton > button {{
         background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
         color: white;
@@ -322,13 +275,12 @@ def set_background_image(image_path):
         transition: all 0.3s ease;
         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }}
-    
+
     .stButton > button:hover {{
         transform: translateY(-1px);
         box-shadow: 0 6px 16px rgba(42, 82, 152, 0.4);
     }}
-    
-    /* Sidebar Styling - Image background on sidebar */
+
     .css-1d391kg {{
         background-image: url("data:image/png;base64,{bin_str}");
         background-size: cover;
@@ -337,8 +289,7 @@ def set_background_image(image_path):
         background-blend-mode: overlay;
         background-color: rgba(248, 250, 252, 0.9);
     }}
-    
-    /* Content containers with image background */
+
     .block-container {{
         background-image: url("data:image/png;base64,{bin_str}");
         background-size: cover;
@@ -348,48 +299,27 @@ def set_background_image(image_path):
         padding: 2rem;
         margin: 1rem 0;
     }}
-    
-    /* Remove Streamlit branding */
+
     #MainMenu {{visibility: hidden;}}
     footer {{visibility: hidden;}}
     header {{visibility: hidden;}}
-    
-    /* Ensure text readability on image background */
+
     .stMarkdown, .stText {{
         text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
     }}
-    
-    /* Additional Streamlit components with image background */
-    .stSelectbox > div > div {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }}
-    
-    .stTextInput > div > div > input {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }}
-    
+
+    .stSelectbox > div > div,
+    .stTextInput > div > div > input,
     .stDataFrame {{
         background-image: url("data:image/png;base64,{bin_str}");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 10px;
-        padding: 1rem;
     }}
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
-
-def get_flag(nationality):
-    return NATIONALITY_FLAGS.get(nationality, "🏳️")
-
-st.session_state.success_shown_time = time.time()
 
 # ================================================
 #  Data Loader
@@ -428,7 +358,6 @@ def load_teams_data():
         })
 
     return pd.DataFrame(teams)
-
 
 
 
