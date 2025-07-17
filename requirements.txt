@@ -3,15 +3,20 @@ pandas
 numpy
 plotly
 pyyaml==6.0.1
-openai==1.23.2
-langchain==0.1.14
+
+# LangChain and OpenAI - Pin compatible versions
+openai>=1.0.0,<2.0.0
+langchain>=0.1.0,<0.3.0
+langchain-core>=0.1.0,<0.3.0
+langchain-openai>=0.1.0,<0.2.0
 langchain-experimental
+
+# Streamlit extensions
 streamlit-extras
 streamlit-chat
 streamlit-toggle-switch
 
-# LangChain LLM & tools
-langchain-openai
+# Progress and utilities
 tqdm
 
 # Internal and compatibility support
@@ -19,14 +24,13 @@ html5lib
 lxml
 pathlib
 
-# torch
-torch
-torchaudio
-torchvision
+# PyTorch - pin versions for stability
+torch>=2.0.0,<3.0.0
+torchaudio>=2.0.0,<3.0.0
+torchvision>=0.15.0,<1.0.0
 tornado
 
-# diffuser
-diffusers
-
-accelerate
-transformers
+# Diffuser and ML
+diffusers>=0.21.0,<1.0.0
+accelerate>=0.20.0,<1.0.0
+transformers>=4.30.0,<5.0.0
