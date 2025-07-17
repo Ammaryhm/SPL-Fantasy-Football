@@ -29,7 +29,8 @@ import streamlit.components.v1 as components
 
 st.markdown("""
 <style>
-html, body, .stApp {
+html, body, .stApp, .block-container, .main, [data-testid="stAppViewContainer"],
+[data-testid="stSidebar"], [data-testid="stHeader"] {
     background-color: #0f1419 !important;
     color: white !important;
 }
