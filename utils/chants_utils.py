@@ -1,5 +1,7 @@
+import os
 import logging
 import streamlit as st
+from openai import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import ChatPromptTemplate
@@ -14,10 +16,16 @@ def setup_chant_chain(chant_prompt_template_str: str) -> LLMChain:
     """
     logger.info("Setting up Chant Generation LLM chain...")
 
-    # Instantiate the LLM with the correct parameter name
+    # Build a plain OpenAI client to avoid passing unsupported kwargs to ChatOpenAI
+    openai_client = OpenAI(
+        api_key=os.getenv("OPENAI_API_KEY")
+    )
+
+    # Instantiate the LangChain wrapper, injecting our client
     llm = ChatOpenAI(
         model_name="gpt-4o-mini",
-        temperature=0.8
+        temperature=0.8,
+        client=openai_client
     )
 
     # Build prompt template and chain
