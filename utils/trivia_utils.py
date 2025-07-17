@@ -1,7 +1,7 @@
 import random
 import os
 import logging
-from dotenv import load_dotenv
+import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
@@ -9,13 +9,23 @@ from pydantic import BaseModel, Field, ValidationError
 
 logger = logging.getLogger(__name__)
 
-load_dotenv()
+def get_openai_api_key():
+    """
+    Get OpenAI API key from Streamlit secrets or environment variables
+    """
+    # Try Streamlit secrets first (for Streamlit Cloud)
+    try:
+        return st.secrets["OPENAI_API_KEY"]
+    except:
+        # Fallback to environment variable (for local development)
+        return os.getenv("OPENAI_API_KEY")
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# Get API key using the helper function
+OPENAI_API_KEY = get_openai_api_key()
 
 if not OPENAI_API_KEY:
-    logger.error("OPENAI_API_KEY not set in environment variables.")
-    raise ValueError("OPENAI_API_KEY not set in environment variables.")
+    logger.error("OPENAI_API_KEY not set in environment variables or Streamlit secrets.")
+    raise ValueError("OPENAI_API_KEY not set in environment variables or Streamlit secrets.")
 
 FACTS_FILE = os.path.join(os.path.dirname(__file__), '..', 'trivia.txt')
 
@@ -26,21 +36,45 @@ class TriviaQuestion(BaseModel):
     correct_answer_index: int = Field(description="The zero-based index of the correct answer in the options list (0, 1, 2, or 3).")
 
  
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
-parser = JsonOutputParser(pydantic_object=TriviaQuestion)
+@st.cache_resource
+def get_llm():
+    """
+    Get the LLM instance with proper caching
+    """
+    return ChatOpenAI(
+        model="gpt-4o-mini", 
+        temperature=0.7,
+        openai_api_key=OPENAI_API_KEY
+    )
 
-trivia_prompt_template = ChatPromptTemplate.from_messages(
+def get_parser():
+    """
+    Get the JSON parser instance
+    """
+    return JsonOutputParser(pydantic_object=TriviaQuestion)
 
-    [
-        ("system", "You are a helpful assistant specialized in creating engaging multiple-choice trivia questions about the Saudi Pro League. Your task is to generate one question, four distinct and plausible answer options (one correct, three distractors), and specify the index of the correct answer, all based on a given fact. Ensure the correct answer is accurately derived from the fact."),
-        ("human", "Generate a trivia question, four options, and the correct answer index (0-3) based on the following fact. The output must be valid JSON following the schema:\n```json\n{format_instructions}\n```\n\nFact: {fact}"),
-    ]
+def get_trivia_prompt_template():
+    """
+    Get the trivia prompt template
+    """
+    parser = get_parser()
+    return ChatPromptTemplate.from_messages(
+        [
+            ("system", "You are a helpful assistant specialized in creating engaging multiple-choice trivia questions about the Saudi Pro League. Your task is to generate one question, four distinct and plausible answer options (one correct, three distractors), and specify the index of the correct answer, all based on a given fact. Ensure the correct answer is accurately derived from the fact."),
+            ("human", "Generate a trivia question, four options, and the correct answer index (0-3) based on the following fact. The output must be valid JSON following the schema:\n```json\n{format_instructions}\n```\n\nFact: {fact}"),
+        ]
+    ).partial(format_instructions=parser.get_format_instructions())
 
-).partial(format_instructions=parser.get_format_instructions())
+@st.cache_resource
+def get_trivia_generation_chain():
+    """
+    Get the trivia generation chain with caching
+    """
+    llm = get_llm()
+    parser = get_parser()
+    trivia_prompt_template = get_trivia_prompt_template()
+    return trivia_prompt_template | llm | parser
 
-
-trivia_generation_chain = trivia_prompt_template | llm | parser
- 
 def load_facts(filepath=FACTS_FILE):
     facts = []
     try:
@@ -67,6 +101,9 @@ def generate_trivia_question_from_fact():
     logger.info(f"Generating question from fact: '{selected_fact}'")
 
     try:
+        # Get the chain
+        trivia_generation_chain = get_trivia_generation_chain()
+        
         # Invoke the Langchain chain to generate the question
         generated_question_data = trivia_generation_chain.invoke({"fact": selected_fact})
 
