@@ -1,3 +1,4 @@
+--upgrade pip
 langchain==0.1.14
 openai==1.23.2
 pyyaml==6.0.1
