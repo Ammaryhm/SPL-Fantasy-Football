@@ -70,21 +70,21 @@ st.set_page_config(
 
 
 # ✅ Force scroll to top on first render after Join SPL Hub
-if st.session_state.get("just_registered"):
-    components.html(
-        """
-        <script>
-        setTimeout(function() {
-            // Reset hash, then scroll to top using location change trick
-            window.location.hash = '';
-            window.location.hash = '#top';
-            window.scrollTo({ top: 0, behavior: 'instant' });
-        }, 100);
-        </script>
-        """,
-        height=0,
-    )
-    st.session_state.just_registered = False
+# if st.session_state.get("just_registered"):
+#     components.html(
+#         """
+#         <script>
+#         setTimeout(function() {
+#             // Reset hash, then scroll to top using location change trick
+#             window.location.hash = '';
+#             window.location.hash = '#top';
+#             window.scrollTo({ top: 0, behavior: 'instant' });
+#         }, 100);
+#         </script>
+#         """,
+#         height=0,
+#     )
+#     st.session_state.just_registered = False
 
 # Add this right after st.set_page_config()
 # st.markdown("""
