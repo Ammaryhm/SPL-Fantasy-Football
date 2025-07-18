@@ -21,8 +21,8 @@ def setup_rag_components(rag_prompt_template_str: str):
     vector_store = InMemoryVectorStore(embeddings)
 
     csv_file_paths = [
-        "./data/spl_mock_data.csv",
-        "./data/spl_win_status.csv"
+        "data/spl_mock_data.csv",
+        "data/spl_win_status.csv"
     ]
 
     docs = []
