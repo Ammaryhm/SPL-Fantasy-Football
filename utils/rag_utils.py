@@ -9,6 +9,7 @@ from langchain_community.document_loaders import CSVLoader
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
